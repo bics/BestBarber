@@ -1,0 +1,9 @@
+* {
+    color: rgb(243, 229, 171);
+}
+
+body {
+    background: url("../images/wooden-background.jpg") no-repeat fixed center;
+    background-size: cover;
+    background-color: yellow;
+}
