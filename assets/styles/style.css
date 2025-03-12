@@ -14,3 +14,35 @@ footer {
     position: fixed;
     bottom: 0;
 }
+
+#gallery {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#gallery img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+
+@media (min-width: 426px) {
+    #gallery {
+        flex-direction: row;
+    }
+
+    #gallery img{
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 1025px) {
+    #gallery {
+        flex-direction: row;
+    }
+
+    #gallery img {
+        max-width: 25%;
+    }
+}
