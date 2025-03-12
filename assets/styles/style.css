@@ -6,4 +6,11 @@ body {
     background: url("../images/wooden-background.jpg") no-repeat fixed center;
     background-size: cover;
     background-color: yellow;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
 }
