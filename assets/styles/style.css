@@ -15,6 +15,8 @@ footer {
     bottom: 0;
 }
 
+
+/*Gallery styles*/
 #gallery {
     display: flex;
     flex-direction: column;
@@ -24,6 +26,27 @@ footer {
 #gallery img {
     max-width: 100%;
     object-fit: cover;
+}
+
+
+/*Contact Us styles*/
+#contact-selection {
+    margin: 30px 0;
+    justify-self: center;
+}
+
+#contact-selection a {
+    justify-self: center;
+}
+
+#employee-section {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#employee-section img {
+    margin: 0 20px 0 0;
 }
 
 .employee-pic {
@@ -45,6 +68,10 @@ footer {
 
     #gallery img{
         max-width: 50%;
+    }
+
+    #employee-section {        
+    flex-direction: row;
     }
 
     .employee-pic {
