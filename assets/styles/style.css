@@ -73,9 +73,10 @@ footer {
 #month {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: blue;
     align-items: center;
+    padding: 0 5px;
 }
 
 #backward-button {
@@ -95,7 +96,6 @@ footer {
 #days {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 #dayrow {
@@ -106,13 +106,30 @@ footer {
 }
 
 #dayrow input[type=button] {
-    color: grey;
+    color: black;
     padding: 0;
     width: 100%;
+    border: 1px solid white;
 }
 
-#dayrow input[type=button]:active {
-    color: blue;
+#calendar input[type=button]:hover {
+    background-color: lightskyblue;
+}
+
+#selected-date-div {
+    display: none;
+    width: 100%;
+    text-align: center;
+}
+
+#selected-date {
+    font-size: 2em;
+    background-color: blue;
+    text-align: center;
+}
+
+#back-button {
+    color: black;
 }
 
 
