@@ -42,3 +42,5 @@ barber-employee-2:https://www.freepik.com/free-photo/professional-bearded-barber
 barber-employee-3: https://www.freepik.com/free-photo/portrait-tattooed-hipster-with-full-beard-stylish-haircut-dressed-gray-t-shirt-stands-with-thinking-look-studio-dark-background_27481079.htm#fromView=search&page=8&position=45&uuid=cbe20e90-7f49-4842-9e84-dbf3fe5e021e&query=Barber
 
 wooden-background: https://www.freepik.com/free-photo/wood-material-background-wallpaper-texture-concept_3224634.htm#fromView=search&page=1&position=0&uuid=c60b1354-e39e-4021-8b5d-e0a3cdb5c647&query=wooden+bacground
+
+forward-arrow/backward-arrow : https://www.freepik.com/free-vector/dotted-arrow-icon-sticker-direction-symbol-vector-black-white_18711331.htm#fromView=keyword&page=1&position=4&uuid=138a14e8-442b-4311-9900-af97402623dc&query=Next

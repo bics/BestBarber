@@ -64,6 +64,30 @@ footer {
 }
 
 
+/*Contact Form style*/
+#month {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: blue;
+    align-items: center;
+}
+
+#backward-button {
+    width: 30px;
+    height: 30px;
+    background: url("../images/backward-arrow.jpg") no-repeat;
+    background-size: contain;
+}
+
+#forward-button {
+    width: 30px;
+    height: 30px;
+    background: url("../images/forward-arrow.jpg") no-repeat;
+    background-size: contain;
+}
+
+
 @media (min-width: 426px) {
     #gallery {
         flex-direction: row;

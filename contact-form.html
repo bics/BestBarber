@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="assets/images/barber-icon-free.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="assets/styles/style.css">
+
+    
+<script>
+    function MoveForward() {
+        const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+        let month = document.getElementById("month-text").getAttribute("alt")
+        if (month >= months.length-1)
+        {
+            month = 0;
+            document.getElementById("month-text").innerHTML = months[month];
+            document.getElementById("month-text").setAttribute("alt", month);
+        }
+        else
+        {        
+
+        month = parseInt(month) + 1 ;
+        document.getElementById("month-text").innerHTML = months[month];
+        document.getElementById("month-text").setAttribute("alt", month);
+        }
+    }
+
+    function MoveBackward() {
+        const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+        let month = document.getElementById("month-text").getAttribute("alt")
+        if (month == 0)
+        {
+            month = 11;
+            document.getElementById("month-text").innerHTML = months[month];
+            document.getElementById("month-text").setAttribute("alt", month);
+        }
+        else
+        {
+            month = parseInt(month) - 1 ;
+            document.getElementById("month-text").innerHTML = months[month];
+            document.getElementById("month-text").setAttribute("alt", month);
+        }
+        
+
+    }
+    
+</script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact-us.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <div id="contact-form">
+            <form action="">
+                <label for="Date">Date</label> <br>
+                <input type="date" name="" id=""> <br>
+
+                <div id="calendar">
+                    <div id="month">
+                        <input type="button" id="backward-button" onclick="MoveBackward()">
+                        <p id="month-text" alt="0">January</p>                        
+                        <input type="button" id="forward-button" onclick="MoveForward()">
+                    </div>
+
+                    <div id="days">
+                        <div id="dayrow">
+
+                        </div>
+                        <div id="dayrow">
+
+                        </div>
+                        <div id="dayrow">
+
+                        </div>
+                        <div id="dayrow">
+
+                        </div>
+                    </div>
+                </div>
+
+                <label for="Name">Name</label> <br>
+                <input type="text"> <br>
+
+                <label for="Email">Email</label> <br>
+                <input type="text"> <br>
+
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        Footer
+    </footer>
+</body>
+
+
+
+
+
+</html>
