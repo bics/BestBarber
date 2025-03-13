@@ -33,10 +33,13 @@ footer {
 #contact-selection {
     margin: 30px 0;
     justify-self: center;
+    justify-content: space-evenly;
 }
 
-#contact-selection a {
-    justify-self: center;
+#faq {
+    margin: auto;
+    margin-top: 50px;
+    width: 30%;
 }
 
 #employee-section {
@@ -69,6 +72,7 @@ footer {
     #gallery img{
         max-width: 50%;
     }
+
 
     #employee-section {        
     flex-direction: row;
