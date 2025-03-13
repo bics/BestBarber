@@ -111,6 +111,10 @@ footer {
     width: 100%;
 }
 
+#dayrow input[type=button]:active {
+    color: blue;
+}
+
 
 @media (min-width: 426px) {
     #gallery {
