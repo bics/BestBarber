@@ -26,6 +26,17 @@ footer {
     object-fit: cover;
 }
 
+.employee-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.employee-name {
+    visibility: hidden;
+}
+
 
 @media (min-width: 426px) {
     #gallery {
@@ -34,6 +45,15 @@ footer {
 
     #gallery img{
         max-width: 50%;
+    }
+
+    .employee-pic {
+        width: 300px;
+        height: 300px;
+    }
+
+    .employee-name {
+        visibility: visible;
     }
 }
 
