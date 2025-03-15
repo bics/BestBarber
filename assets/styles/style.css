@@ -47,12 +47,12 @@ footer {
     margin-top: 30px;
 }
 
-#employee-introduction {
+#employee-introduction-even, #employee-introduction-odd {
     justify-items: center;
     text-align: center;
 }
 
-#employee-introduction hr {
+#introduction hr {
     border: 1px solid black
 }
 
@@ -231,11 +231,28 @@ footer {
     }
 
     #description {
+        width: 95%;
         flex-direction: row;
         align-content: stretch;
     }
 
     #description div {
         align-content: stretch;
+    }
+
+    #introduction {
+        width: 95%;
+    }
+
+    #employee-introduction-even {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #employee-introduction-odd {        
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
     }
 }
