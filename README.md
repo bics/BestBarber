@@ -9,7 +9,7 @@ Lorem ipsum generator: https://www.lipsum.com
 
 Image sources:
 
-barber-shop-landing-image: https://www.freepik.com/free-vector/barber-shop-label-font-sample_10111658.htm#fromView=search&page=2&position=39&uuid=7cb96320-6a91-420c-a6a4-32f088e12359&query=Barber+vintage
+barber-shop-landing-image: https://www.freepik.com/free-vector/realistic-barbershop-horizontal-banner_31590549.htm#fromView=search&page=8&position=32&uuid=27045d49-26c3-4cd5-8895-d4bb624f4cb8&query=barbershop+vintage
 
 barber-icon: https://www.freepik.com/premium-vector/vintage-barber-shop-badge-emblem-isolated-white_10828038.htm#fromView=keyword&page=1&position=22&uuid=4f4f69f1-e4f8-4e17-ae8d-70090e3a3fe6&query=Barber+Logo
 
