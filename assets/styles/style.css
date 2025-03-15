@@ -4,7 +4,7 @@
 
 header {
     width: 100%;
-    background-color: black;
+    background-color: gray;
     position: fixed;
     top: 0;
     z-index: 1;
@@ -20,7 +20,7 @@ body {
     margin: 0;
     background: url("../images/wooden-background.jpg") no-repeat fixed center;
     background-size: cover;
-    background-color: yellow;
+    background-color: black;
     display: flex;
     flex-direction: column;
 }
@@ -32,7 +32,7 @@ main {
 
 footer {
     width: 100%;
-    background-color: black;
+    background-color: gray;
     position: fixed;
     bottom: 0;
     z-index: 1;
@@ -54,7 +54,7 @@ footer {
 }
 
 #description ul {
-    border: 1px solid white;
+    border: 1px solid gray;
     padding-left: 0;
     text-align: center;
     list-style: none;
@@ -80,7 +80,7 @@ footer {
 }
 
 #introduction hr {
-    border: 1px solid black
+    border: 1px solid gray;
 }
 
 
