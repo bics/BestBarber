@@ -271,11 +271,6 @@ footer {
         width: 20%;
     }
    
-
-    #introduction {
-        width: 95%;
-    }
-
     #employee-introduction-even {
         display: flex;
         flex-direction: row;
