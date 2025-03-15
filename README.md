@@ -5,6 +5,8 @@
 
 Name generator: https://www.behindthename.com
 
+Lorem ipsum generator: https://www.lipsum.com
+
 Image sources:
 
 barber-shop-landing-image: https://www.freepik.com/free-vector/barber-shop-label-font-sample_10111658.htm#fromView=search&page=2&position=39&uuid=7cb96320-6a91-420c-a6a4-32f088e12359&query=Barber+vintage
