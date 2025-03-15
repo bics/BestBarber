@@ -232,12 +232,19 @@ footer {
 
     #description {
         width: 95%;
+        font-size: 1.5em;
         flex-direction: row;
-        align-content: stretch;
+        justify-content: space-between;
     }
 
-    #description div {
-        align-content: stretch;
+    #description > * {
+        width: 45%;
+        max-height: 50vh;
+    }
+
+    #landing-image {
+        object-fit: fill;
+        height: 100%;
     }
 
     #introduction {
@@ -248,11 +255,13 @@ footer {
         display: flex;
         flex-direction: row;
         align-items: center;
+        font-size: 1.5em;
     }
 
     #employee-introduction-odd {        
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
+        font-size: 1.5em;
     }
 }
