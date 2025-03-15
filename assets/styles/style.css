@@ -15,6 +15,39 @@ footer {
     bottom: 0;
 }
 
+/*Langin page styles*/
+#description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#description h1, #description h2 {
+    justify-self: center;
+}
+
+#description ul {
+    border: 1px solid white;
+    padding-left: 0;
+    text-align: center;
+    list-style: none;
+}
+
+#description p {
+    text-align: center;
+}
+
+#landing-image {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+
+#employee-introduction {
+    justify-items: center;
+    text-align: center;
+}
+
 
 /*Gallery styles*/
 #gallery {
@@ -159,6 +192,11 @@ footer {
     #calendar {
         width: 40%;
     }
+
+    #landing-image {
+        height: auto;
+        object-fit: fill;
+    }
 }
 
 @media (min-width: 1025px) {
@@ -172,5 +210,14 @@ footer {
     
     #calendar {
         width: 20%;
+    }
+
+    #description {
+        flex-direction: row;
+        align-content: stretch;
+    }
+
+    #description div {
+        align-content: stretch;
     }
 }
