@@ -3,6 +3,8 @@
 
 ## Credits
 
+Code snippet taken and modified from https://www.w3schools.com/howto/howto_css_modals.asp for modal animation fade in
+
 Name generator: https://www.behindthename.com
 
 Lorem ipsum generator: https://www.lipsum.com

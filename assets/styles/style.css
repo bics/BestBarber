@@ -4,7 +4,7 @@
 
 header {
     width: 100%;
-    background-color: gray;
+    background-color: rgb(59, 59, 59);
     position: fixed;
     top: 0;
     z-index: 1;
@@ -20,7 +20,7 @@ body {
     margin: 0;
     background: url("../images/wooden-background.jpg") no-repeat fixed center;
     background-size: cover;
-    background-color: black;
+    background-color: rgb(59, 59, 59);
     display: flex;
     flex-direction: column;
 }
@@ -32,7 +32,7 @@ main {
 
 footer {
     width: 100%;
-    background-color: gray;
+    background-color: rgb(59, 59, 59);
     position: fixed;
     bottom: 0;
     z-index: 1;
@@ -133,16 +133,21 @@ footer {
 
 
 /*Contact Form style*/
-#calendar {
+#contact-form > * {
+    margin: 10px 0;
+}
+
+#calendar, #contact-modal input[type="email"], input[type="text"], #faq-input-box {
     width: 95%;
     justify-self: center;
+    color: black;
 }
 
 #month {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: blue;
+    background-color: darkblue;
     align-items: center;
     padding: 0 5px;
 }
@@ -174,7 +179,6 @@ footer {
 }
 
 #dayrow input[type=button] {
-    color: black;
     padding: 0;
     width: 100%;
     border: 1px solid white;
@@ -192,13 +196,86 @@ footer {
 
 #selected-date {
     font-size: 2em;
-    background-color: blue;
+    background-color: darkblue;
     text-align: center;
 }
 
 #back-button {
+    width: 15%;
+}
+
+/*Modal styles*/
+#modal-background {
+    display: none;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(59, 59, 59, 0.4);
+    justify-items: center;
+}
+
+#contact-modal {
+    display: flex;
+    position: relative;
+    width: 90%;
+    max-height: 50%;
+    z-index: 3;
+    top: 5vh;
+    background-color: rgb(59, 59, 59);
+    text-align: center;
+    align-self: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    -webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.6s;
+}
+
+#contact-modal-form {
+    flex-basis: 100%;
+    align-self: flex-start;
+}
+
+#contact-modal-head, #contact-modal-footer {
+    flex-basis: 100%;
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-modal-head {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 50px;
+}
+
+#contact-modal-footer {
+    margin-top: 20px;
+    padding: 0 20px;
+    align-self: flex-end;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+}
+
+#contact-modal button, input[type="button"], input[type="submit"]  {
     color: black;
 }
+
+/*Modal slide animation*/  
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+  }
 
 
 @media (min-width: 426px) {
@@ -223,10 +300,6 @@ footer {
     .employee-name {
         visibility: visible;
     }
-    
-    #calendar {
-        width: 40%;
-    }
 
     #description {
         width: 80%;
@@ -242,6 +315,10 @@ footer {
         width: 80%;
         justify-self: center;
     }
+
+    #contact-modal {
+        width: 80%;
+    }
 }
 
 @media (min-width: 769px) {
@@ -256,6 +333,9 @@ footer {
         border-radius: 10px 0 0;
     }
     
+    #contact-modal {
+        width: 60%;
+    }
 }
 
 @media (min-width: 1025px) {
@@ -266,11 +346,7 @@ footer {
     #gallery img {
         max-width: 25%;
     }
-    
-    #calendar {
-        width: 20%;
-    }
-   
+       
     #employee-introduction-even {
         display: flex;
         flex-direction: row;
@@ -283,6 +359,10 @@ footer {
         flex-direction: row-reverse;
         align-items: center;
         font-size: 1.5em;
+    }
+
+    #calendar, #contact-modal input[type="email"], input[type="text"], #faq-input-box {
+        width: 50%;
     }
 }
 
@@ -305,5 +385,9 @@ footer {
 
     #introduction {
         width: 80%;
+    }
+
+    #contact-modal {
+        width: 40%;
     }
 }
