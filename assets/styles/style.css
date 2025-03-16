@@ -133,6 +133,10 @@ footer {
 
 
 /*Contact Form style*/
+#contact-form > * {
+    margin: 10px 0;
+}
+
 #calendar {
     width: 95%;
     justify-self: center;
@@ -264,10 +268,6 @@ footer {
     .employee-name {
         visibility: visible;
     }
-    
-    #calendar {
-        width: 40%;
-    }
 
     #description {
         width: 80%;
@@ -283,6 +283,10 @@ footer {
         width: 80%;
         justify-self: center;
     }
+
+    #contact-modal {
+        width: 80%;
+    }
 }
 
 @media (min-width: 769px) {
@@ -297,6 +301,9 @@ footer {
         border-radius: 10px 0 0;
     }
     
+    #contact-modal {
+        width: 60%;
+    }
 }
 
 @media (min-width: 1025px) {
@@ -307,11 +314,7 @@ footer {
     #gallery img {
         max-width: 25%;
     }
-    
-    #calendar {
-        width: 20%;
-    }
-   
+       
     #employee-introduction-even {
         display: flex;
         flex-direction: row;
@@ -324,6 +327,10 @@ footer {
         flex-direction: row-reverse;
         align-items: center;
         font-size: 1.5em;
+    }
+
+    #calendar {
+        width: 50%;
     }
 }
 
@@ -346,5 +353,9 @@ footer {
 
     #introduction {
         width: 80%;
+    }
+
+    #contact-modal {
+        width: 40%;
     }
 }
