@@ -36,7 +36,7 @@
             </section>
 
             <section id="faq">
-                <a href="contact-modal-form.html"><h2>General Queries</h2></a>
+                <a href="#contact-modal" onclick="showModal(true)"><h2>General Queries</h2></a>
             </section>
 
         </div>
@@ -45,7 +45,7 @@
 
     <div id="contact-modal" class="modal">
         <div id="contact-modal-head">
-            <h2>Appointments</h2>
+            <h2 id="modal-title">Appointments</h2>
         </div>
 
         <div id="contact-modal-form">
@@ -118,7 +118,8 @@
         </div>
 
         <div id="contact-modal-footer">
-            Modal footer
+            <button onclick="hideModal()">Close</button>
+            <input type="button" value="Submit" onclick="hideModal()">
         </div>
     </div>
 
@@ -128,8 +129,24 @@
 </body>
 
 <script>
-    function showModal(){
+    function showModal(faq) {        
+
+        if (faq)
+        {
+            document.getElementById("calendar").style.display = "none";
+            document.getElementById("modal-title").innerHTML = "Question";
+        }
+        else
+        {
+            document.getElementById("modal-title").innerHTML = "Appointment";
+            document.getElementById("calendar").style.display = "block";
+        }
+
         document.getElementById("contact-modal").style.display = "flex";
+    }
+
+    function hideModal() {
+        document.getElementById("contact-modal").style.display = "none";
     }
     
     function MoveForward() {
