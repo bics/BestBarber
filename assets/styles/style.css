@@ -137,9 +137,10 @@ footer {
     margin: 10px 0;
 }
 
-#calendar, #contact-modal input[type="email"], input[type="text"] {
+#calendar, #contact-modal input[type="email"], input[type="text"], #faq-input-box {
     width: 95%;
     justify-self: center;
+    color: black;
 }
 
 #month {
@@ -360,7 +361,7 @@ footer {
         font-size: 1.5em;
     }
 
-    #calendar, #contact-modal input[type="email"], input[type="text"] {
+    #calendar, #contact-modal input[type="email"], input[type="text"], #faq-input-box {
         width: 50%;
     }
 }

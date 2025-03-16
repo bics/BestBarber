@@ -119,6 +119,11 @@
                         <input type="email" id="email" placeholder="Email address"> <br>
                     </div>
 
+                    <div id="faq-container">
+                        <label for="faq-input">Question</label> <br>
+                        <textarea name="faq-input" id="faq-input-box" rows="5"></textarea>
+                    </div>
+
                 </form>
             </div>
 
@@ -141,12 +146,14 @@
         if (faq)
         {
             document.getElementById("calendar").style.display = "none";
+            document.getElementById("faq-container").style.display = "block"
             document.getElementById("modal-title").innerHTML = "Question";
         }
         else
         {
             document.getElementById("modal-title").innerHTML = "Appointment";
             document.getElementById("calendar").style.display = "block";
+            document.getElementById("faq-container").style.display = "none"
         }
 
         document.getElementById("modal-background").style.display = "block";
