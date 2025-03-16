@@ -178,7 +178,6 @@ footer {
 }
 
 #dayrow input[type=button] {
-    color: black;
     padding: 0;
     width: 100%;
     border: 1px solid white;
@@ -245,7 +244,7 @@ footer {
     height: 50px;
 }
 
-#contact-modal button, #contact-modal input[type="button"] {
+#contact-modal button, input[type="button"], input[type="submit"]  {
     color: black;
 }
 
