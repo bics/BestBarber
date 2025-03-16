@@ -205,12 +205,40 @@ footer {
     display: none;
     position: fixed;
     width: 90%;
-    height: 50%;
+    max-height: 50%;
     z-index: 2;
     top: 5vh;
     background-color: gray;
     text-align: center;
     align-self: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#contact-modal-form {
+    flex-basis: 100%;
+    align-self: flex-start;
+}
+
+#contact-modal-head, #contact-modal-footer {
+    flex-basis: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-modal-head {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 50px;
+}
+
+#contact-modal-footer {
+    margin-top: 20px;
+    align-self: flex-end;
+    width: 100%;
+    height: 50px;
 }
 
 

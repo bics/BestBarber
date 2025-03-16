@@ -36,7 +36,7 @@
             </section>
 
             <section id="faq">
-                <a href="contact-form.html"><h2>General Queries</h2></a>
+                <a href="contact-modal-form.html"><h2>General Queries</h2></a>
             </section>
 
         </div>
@@ -44,11 +44,12 @@
     </main>
 
     <div id="contact-modal" class="modal">
-        this will be modal
-        <div id="contact-form">
+        <div id="contact-modal-head">
+            <h2>Appointments</h2>
+        </div>
+
+        <div id="contact-modal-form">
             <form action="">
-                <label for="Date">Date</label> <br>
-                <input type="date" name="" id=""> <br>
 
                 <div id="calendar">
                     <div id="month">
@@ -115,6 +116,10 @@
 
             </form>
         </div>
+
+        <div id="contact-modal-footer">
+            Modal footer
+        </div>
     </div>
 
     <footer>
@@ -124,7 +129,7 @@
 
 <script>
     function showModal(){
-        document.getElementById("contact-modal").style.display = "block";
+        document.getElementById("contact-modal").style.display = "flex";
     }
     
     function MoveForward() {
