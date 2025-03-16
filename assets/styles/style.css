@@ -200,6 +200,19 @@ footer {
     color: black;
 }
 
+/*Modal styles*/
+#contact-modal {
+    display: none;
+    position: fixed;
+    width: 90%;
+    height: 50%;
+    z-index: 2;
+    top: 5vh;
+    background-color: gray;
+    text-align: center;
+    align-self: center;
+}
+
 
 @media (min-width: 426px) {
     #gallery {

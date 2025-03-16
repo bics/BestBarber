@@ -21,18 +21,18 @@
         <div id="contact-selection">
 
             <section id="employee-section">
-                <a href="contact-form.html"><img src="assets/images/barber-employee-1.jpg" alt="Cesarina Polyphonte" id="employee-1" class="employee-pic"></a>
-                <label for="employee-1" class="employee-name"><h2><a href="contact-form.html">Cesarina Polyphonte</a></h2></label>
+                <a href="#contact-modal" onclick="showModal()"><img src="assets/images/barber-employee-1.jpg" alt="Cesarina Polyphonte" id="employee-1" class="employee-pic"></a>
+                <label for="employee-1" class="employee-name"><h2><a href="#contact-modal" onclick="showModal()">Cesarina Polyphonte</a></h2></label>
             </section>
 
             <section id="employee-section">
-                <a href="contact-form.html"><img src="assets/images/barber-employee-2.jpg" alt="Patrícia Odelia" id="employee-2" class="employee-pic"></a>
-                <label for="employee-2" class="employee-name"><h2><a href="contact-form.html">Patrícia Odelia</a></h2></label>
+                <a href="#contact-modal" onclick="showModal()"><img src="assets/images/barber-employee-2.jpg" alt="Patrícia Odelia" id="employee-2" class="employee-pic"></a>
+                <label for="employee-2" class="employee-name"><h2><a href="#contact-modal" onclick="showModal()">Patrícia Odelia</a></h2></label>
             </section>
 
             <section id="employee-section">
-                <a href="contact-form.html"><img src="assets/images/barber-employee-3.jpg" alt="Heimdallr Hermokrates" id="employee-3" class="employee-pic"></a>
-                <label for="employee-3" class="employee-name"><h2><a href="contact-form.html">Heimdallr Hermokrates</a></h2></label>
+                <a href="#contact-modal" onclick="showModal()"><img src="assets/images/barber-employee-3.jpg" alt="Heimdallr Hermokrates" id="employee-3" class="employee-pic"></a>
+                <label for="employee-3" class="employee-name"><h2><a href="#contact-modal" onclick="showModal()">Heimdallr Hermokrates</a></h2></label>
             </section>
 
             <section id="faq">
@@ -40,10 +40,22 @@
             </section>
 
         </div>
+
     </main>
+    
+    <div id="contact-modal" class="modal">
+        this will be modal
+    </div>
 
     <footer>
         Footer
     </footer>
 </body>
+
+<script>
+    function showModal(){
+        document.getElementById("contact-modal").style.display = "block";
+    }
+</script>
+
 </html>
