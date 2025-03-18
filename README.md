@@ -9,6 +9,8 @@ Name generator: https://www.behindthename.com
 
 Lorem ipsum generator: https://www.lipsum.com
 
+Awesomefonts link copied from previous LoveRunning project.
+
 Image sources:
 
 barber-shop-landing-image: https://www.freepik.com/free-vector/realistic-barbershop-horizontal-banner_31590549.htm#fromView=search&page=8&position=32&uuid=27045d49-26c3-4cd5-8895-d4bb624f4cb8&query=barbershop+vintage
