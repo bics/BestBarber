@@ -35,7 +35,7 @@ barber-gallery-8: https://www.freepik.com/free-photo/hairdresser-barber-shop-sty
 
 barber-gallery-9: https://www.freepik.com/free-photo/man-barbershop-salon-doing-haircut-beard-trim_7435492.htm#fromView=search&page=4&position=1&uuid=cbe20e90-7f49-4842-9e84-dbf3fe5e021e&query=Barber
 
-barber-gallery-10: https://www.freepik.com/premium-photo/hipster-young-good-looking-man-visiting-hairstylist-barber-barber-shop_15868887.htm#fromView=search&page=4&position=37&uuid=cbe20e90-7f49-4842-9e84-dbf3fe5e021e&query=Barber
+barber-gallery-10: https://www.freepik.com/free-photo/handsome-man-cutting-beard-barber-salon_7435505.htm#from_element=detail_alsolike
 
 barber-gallery-11: https://www.freepik.com/free-photo/man-getting-his-beard-shaved-with-razor_10518183.htm#fromView=search&page=5&position=34&uuid=cbe20e90-7f49-4842-9e84-dbf3fe5e021e&query=Barber
 
