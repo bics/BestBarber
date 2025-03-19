@@ -30,7 +30,7 @@ body {
 
 main {
     position: relative;
-    margin: 20px 10px;
+    margin: 40px 10px;
 }
 
 footer {
@@ -52,6 +52,11 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#hero-text {
+    font-weight: bold;
+    font-family: 'Brush Script MT',  sans-serif;
 }
 
 #description h1, #description h2 {
@@ -79,7 +84,7 @@ footer {
     margin-top: 30px;
 }
 
-#employee-introduction-even, #employee-introduction-odd {
+.employee-introduction-even, .employee-introduction-odd {
     justify-items: center;
     text-align: center;
 }
@@ -358,14 +363,14 @@ footer {
         height: 33vh;
     }
        
-    #employee-introduction-even {
+    .employee-introduction-even {
         display: flex;
         flex-direction: row;
         align-items: center;
         font-size: 1.5em;
     }
 
-    #employee-introduction-odd {        
+    .employee-introduction-odd {        
         display: flex;
         flex-direction: row-reverse;
         align-items: center;

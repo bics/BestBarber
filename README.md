@@ -9,6 +9,8 @@ Name generator: https://www.behindthename.com
 
 Lorem ipsum generator: https://www.lipsum.com
 
+Heavily relied on https://chatgpt.com for content.
+
 Awesomefonts link copied from previous LoveRunning project.
 
 Image sources:
