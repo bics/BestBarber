@@ -150,7 +150,8 @@ footer {
     align-items: center;
 }
 #employee-section img {
-    margin: 0 20px 0 0;
+    box-sizing: border-box;
+    margin: 0 20px;
 }
 
 .employee-pic {
