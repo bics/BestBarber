@@ -25,12 +25,14 @@ function showConfirmation() {
     document.getElementById("contact-modal-confirmation").style.display = "block";
     document.getElementById("contact-modal-form").style.display = "none";
     document.getElementById("submit-button").style.display = "none";
+    document.getElementById("contact-modal-footer").style.justifyContent = "center";
 }
 
 function hideConfirmation() {
     document.getElementById("contact-modal-confirmation").style.display = "none";
     document.getElementById("contact-modal-form").style.display = "block";
     document.getElementById("submit-button").style.display = "block";
+    document.getElementById("contact-modal-footer").style.justifyContent = "space-between";
 }
 
 function MoveForward() {

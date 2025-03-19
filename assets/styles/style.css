@@ -272,6 +272,13 @@ footer {
     align-self: flex-start;
 }
 
+#contact-modal-confirmation {
+    display: none;
+    flex-basis: 100%;
+    align-self: flex-start;
+    justify-self: center;
+}
+
 #contact-modal-head, #contact-modal-footer {
     flex-basis: 100%;
     background-color: darkblue;
