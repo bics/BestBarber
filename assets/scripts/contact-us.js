@@ -16,7 +16,7 @@ function showModal(faq) {
         document.getElementById("faq-container").style.display = "none"
     }
 
-    document.getElementById("modal-background").style.display = "block";
+    document.getElementById("modal-background").style.display = "flex";
 }
 
 function hideModal() {
