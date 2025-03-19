@@ -21,6 +21,18 @@ function hideModal() {
     document.getElementById("modal-background").style.display = "none";
 }
 
+function showConfirmation() {
+    document.getElementById("contact-modal-confirmation").style.display = "block";
+    document.getElementById("contact-modal-form").style.display = "none";
+    document.getElementById("submit-button").style.display = "none";
+}
+
+function hideConfirmation() {
+    document.getElementById("contact-modal-confirmation").style.display = "none";
+    document.getElementById("contact-modal-form").style.display = "block";
+    document.getElementById("submit-button").style.display = "block";
+}
+
 function MoveForward() {
     const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 

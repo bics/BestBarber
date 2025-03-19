@@ -129,12 +129,11 @@
 
             <div id="contact-modal-confirmation">
                 <p>Thank you for choosing your appointment with us.</p><br>
-                <button onclick="hideModal()">Close</button>
             </div>
 
             <div id="contact-modal-footer">
-                <button onclick="hideModal()">Close</button>
-                <input type="submit" value="Submit" onclick="hideModal(), ReSelectDate()">
+                <button onclick="hideModal(), hideConfirmation()">Close</button>
+                <input type="submit" value="Submit" id="submit-button" onclick="showConfirmation(), ReSelectDate()">
             </div>
         </div>
     </div>
