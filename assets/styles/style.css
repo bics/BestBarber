@@ -308,6 +308,10 @@ footer {
     color: black;
 }
 
+#hidden-input {
+    display: none;
+}
+
 /*Modal slide animation*/  
   @-webkit-keyframes fadeIn {
     from {opacity: 0} 
