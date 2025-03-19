@@ -166,14 +166,15 @@ footer {
 
 
 /*Contact Form style*/
-#contact-form > * {
-    margin: 10px 0;
-}
-
-#calendar, #contact-modal input[type="email"], input[type="text"], #faq-input-box {
+#calendar, #contact-modal-form input[type="email"], input[type="text"], #faq-input-box {
     width: 95%;
     justify-self: center;
     color: black;
+}
+
+#calendar {
+    display: flex;
+    flex-direction: column;
 }
 
 #month {
@@ -248,7 +249,11 @@ footer {
     justify-items: center;
 }
 
-#contact-modal {
+#contact-form {
+    width: 100%;
+}
+
+#contact-modal-form {
     display: flex;
     position: relative;
     width: 90%;
@@ -260,16 +265,12 @@ footer {
     align-self: center;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
 
     -webkit-animation-name: fadeIn; /* Fade in the background */
     -webkit-animation-duration: 0.4s;
     animation-name: fadeIn;
     animation-duration: 0.6s;
-}
-
-#contact-modal-form {
-    flex-basis: 100%;
-    align-self: flex-start;
 }
 
 #contact-modal-confirmation {
@@ -279,30 +280,31 @@ footer {
     justify-self: center;
 }
 
-#contact-modal-head, #contact-modal-footer {
-    flex-basis: 100%;
-    background-color: darkblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 #contact-modal-head {
     margin-bottom: 20px;
     width: 100%;
     height: 50px;
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
 }
 
 #contact-modal-footer {
+    display: flex;
+    background-color: darkblue;
+    box-sizing: border-box;
     margin-top: 20px;
     padding: 0 20px;
     align-self: flex-end;
     width: 100%;
     height: 50px;
+    align-items: center;
     justify-content: space-between;
 }
 
-#contact-modal button, input[type="button"], input[type="submit"]  {
+#contact-modal-form button, input[type="button"], input[type="submit"]  {
     color: black;
 }
 
@@ -357,7 +359,7 @@ footer {
         justify-self: center;
     }
 
-    #contact-modal {
+    #contact-modal-form {
         width: 80%;
     }
 }
@@ -374,7 +376,7 @@ footer {
         border-radius: 10px 0 0;
     }
     
-    #contact-modal {
+    #contact-modal-form {
         width: 60%;
     }
 
@@ -416,7 +418,7 @@ footer {
         font-size: 1.5em;
     }
 
-    #calendar, #contact-modal input[type="email"], input[type="text"], #faq-input-box {
+    #calendar, #contact-modal-form input[type="email"], input[type="text"], #faq-input-box {
         width: 50%;
     }
 }
@@ -440,7 +442,7 @@ footer {
         width: 80%;
     }
 
-    #contact-modal {
+    #contact-modal-form {
         width: 40%;
     }
 }

@@ -4,13 +4,13 @@ function showModal(faq) {
     if (faq)
     {
         document.getElementById("calendar").style.display = "none";
-        document.getElementById("faq-container").style.display = "block"
+        document.getElementById("faq-container").style.display = "flex"
         document.getElementById("modal-title").innerHTML = "Question";
     }
     else
     {
         document.getElementById("modal-title").innerHTML = "Appointment";
-        document.getElementById("calendar").style.display = "block";
+        document.getElementById("calendar").style.display = "flex";
         document.getElementById("faq-container").style.display = "none"
     }
 
@@ -22,17 +22,49 @@ function hideModal() {
 }
 
 function showConfirmation() {
-    document.getElementById("contact-modal-confirmation").style.display = "block";
-    document.getElementById("contact-modal-form").style.display = "none";
-    document.getElementById("submit-button").style.display = "none";
-    document.getElementById("contact-modal-footer").style.justifyContent = "center";
+
+    if (validateInputFields())
+    {
+        document.getElementById("contact-modal-confirmation").style.display = "block";
+        document.getElementById("submit-button").style.display = "none";
+        document.getElementById("contact-modal-footer").style.justifyContent = "center";
+    }
 }
 
 function hideConfirmation() {
     document.getElementById("contact-modal-confirmation").style.display = "none";
-    document.getElementById("contact-modal-form").style.display = "block";
     document.getElementById("submit-button").style.display = "block";
     document.getElementById("contact-modal-footer").style.justifyContent = "space-between";
+}
+
+function validateInputFields() {
+    let valid = false;
+    let visible = document.getElementById("faq-container").style.display;
+
+    if (visible == "none")
+    {
+        valid = validateEmailField();
+        valid = validateEmailField();
+        return valid;
+    }
+
+    return valid;
+}
+
+function validateNameField() {
+    if (document.getElementById("name").innerHTML == "")
+    {
+        return false;
+    }
+    return true;
+}
+
+function validateEmailField() {
+    if (document.getElementById("email").innerHTML == "")
+    {
+        return false;
+    }
+    return true;
 }
 
 function MoveForward() {
