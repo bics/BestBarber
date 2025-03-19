@@ -52,7 +52,7 @@ function validateInputFields() {
 }
 
 function validateNameField() {
-    if (document.getElementById("name").innerHTML == "")
+    if (document.getElementById("name").value == "")
     {
         return false;
     }
@@ -60,7 +60,7 @@ function validateNameField() {
 }
 
 function validateEmailField() {
-    if (document.getElementById("email").innerHTML == "")
+    if (document.getElementById("email").value == "")
     {
         return false;
     }
