@@ -6,10 +6,12 @@ function showModal(faq) {
         document.getElementById("calendar").style.display = "none";
         document.getElementById("faq-container").style.display = "block"
         document.getElementById("modal-title").innerHTML = "Question";
+        document.getElementById("confirmation-text").innerHTML = "Thank you, we will get back to you as soon as we can.";
     }
     else
     {
         document.getElementById("modal-title").innerHTML = "Appointment";
+        document.getElementById("confirmation-text").innerHTML = "Thank you for choosing an appointment with us.";
         document.getElementById("calendar").style.display = "flex";
         document.getElementById("faq-container").style.display = "none"
     }
