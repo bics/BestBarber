@@ -43,21 +43,15 @@ function hideConfirmation() {
 function validateInputFields() {
     let valid = false;
     let visibleFaq = document.getElementById("faq-container").style.display;
-
-    if (visibleFaq == "none")
+    
+    valid = validateNameField();
+    valid = validateEmailField();
+    if (visibleFaq != "none")
     {
-        valid = validateNameField();
-        valid = validateEmailField();
-        return valid;
-    }
-    else
-    {
-        valid = validateNameField();
-        valid = validateEmailField();
         valid = validateFaqContainer();
     }
-
     return valid;
+
 }
 
 function validateNameField() {
@@ -81,12 +75,12 @@ function validateEmailField() {
 }
 
 function validateFaqContainer() {
-    if (document.getElementById("faq-container").value == "")
+    if (!document.getElementById("faq-input-box").value == "")
     {
-        return false;
+        return true;
     }
 
-    return true;
+    return false;
 }
 
 function MoveForward() {
