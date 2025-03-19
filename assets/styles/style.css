@@ -182,7 +182,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: darkblue;
+    background-color: rgb(4, 7, 32);
     align-items: center;
     padding: 0 5px;
 }
@@ -231,7 +231,7 @@ footer {
 
 #selected-date {
     font-size: 2em;
-    background-color: darkblue;
+    background-color: rgb(4, 7, 32);
     text-align: center;
 }
 
@@ -285,7 +285,7 @@ footer {
     margin-bottom: 20px;
     width: 100%;
     height: 50px;
-    background-color: darkblue;
+    background-color: rgb(4, 7, 32);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -294,7 +294,7 @@ footer {
 
 #contact-modal-footer {
     display: flex;
-    background-color: darkblue;
+    background-color: rgb(4, 7, 32);
     box-sizing: border-box;
     margin-top: 20px;
     padding: 0 20px;
