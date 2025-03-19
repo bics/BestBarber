@@ -32,6 +32,7 @@ function showConfirmation() {
         document.getElementById("contact-modal-body").style.display = "none";
         document.getElementById("submit-button").style.display = "none";
         document.getElementById("contact-modal-footer").style.justifyContent = "center";
+        clearFields();
     }
 }
 
@@ -83,6 +84,12 @@ function validateFaqContainer() {
     }
 
     return false;
+}
+
+function clearFields() {
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("faq-input-box").value = "";
 }
 
 function MoveForward() {
