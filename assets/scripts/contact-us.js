@@ -4,7 +4,7 @@ function showModal(faq) {
     if (faq)
     {
         document.getElementById("calendar").style.display = "none";
-        document.getElementById("faq-container").style.display = "flex"
+        document.getElementById("faq-container").style.display = "block"
         document.getElementById("modal-title").innerHTML = "Question";
     }
     else
@@ -23,9 +23,11 @@ function hideModal() {
 
 function showConfirmation() {
 
-    if (validateInputFields())
+    let valid = validateInputFields();
+    if (valid)
     {
         document.getElementById("contact-modal-confirmation").style.display = "block";
+        document.getElementById("contact-modal-body").style.display = "none";
         document.getElementById("submit-button").style.display = "none";
         document.getElementById("contact-modal-footer").style.justifyContent = "center";
     }
@@ -33,19 +35,26 @@ function showConfirmation() {
 
 function hideConfirmation() {
     document.getElementById("contact-modal-confirmation").style.display = "none";
+    document.getElementById("contact-modal-body").style.display = "block";
     document.getElementById("submit-button").style.display = "block";
     document.getElementById("contact-modal-footer").style.justifyContent = "space-between";
 }
 
 function validateInputFields() {
     let valid = false;
-    let visible = document.getElementById("faq-container").style.display;
+    let visibleFaq = document.getElementById("faq-container").style.display;
 
-    if (visible == "none")
+    if (visibleFaq == "none")
     {
-        valid = validateEmailField();
+        valid = validateNameField();
         valid = validateEmailField();
         return valid;
+    }
+    else
+    {
+        valid = validateNameField();
+        valid = validateEmailField();
+        valid = validateFaqContainer();
     }
 
     return valid;
@@ -64,6 +73,19 @@ function validateEmailField() {
     {
         return false;
     }
+    if (!document.getElementById("email").value.includes("@"))
+    {
+        return false;
+    }
+    return true;
+}
+
+function validateFaqContainer() {
+    if (document.getElementById("faq-container").value == "")
+    {
+        return false;
+    }
+
     return true;
 }
 

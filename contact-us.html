@@ -46,66 +46,66 @@
     <div id="modal-background">
         <div id="contact-modal-form">
             <form id="contact-form" action="">
-
                     
                 <div id="contact-modal-head">
                     <h2 id="modal-title">Appointments</h2>
                 </div>
                 
+                <div id="contact-modal-body">
                     <div id="calendar">
-                        <div id="month">
-                            <input type="button" id="backward-button" onclick="MoveBackward()">
-                            <p id="month-text" alt="0">January</p>
-                            <input type="button" id="forward-button" onclick="MoveForward()">
-                        </div>
-                        <div id="days">
-                            <div id="dayrow">
-                                <input type="button" value="1" onclick="SelectDate(1)">
-                                <input type="button" value="2" onclick="SelectDate(2)">
-                                <input type="button" value="3" onclick="SelectDate(3)">
-                                <input type="button" value="4" onclick="SelectDate(4)">
-                                <input type="button" value="5" onclick="SelectDate(5)">
-                                <input type="button" value="6" onclick="SelectDate(6)">
-                                <input type="button" value="7" onclick="SelectDate(7)">
+                            <div id="month">
+                                <input type="button" id="backward-button" onclick="MoveBackward()">
+                                <p id="month-text" alt="0">January</p>
+                                <input type="button" id="forward-button" onclick="MoveForward()">
                             </div>
-                            <div id="dayrow">
-                                <input type="button" value="8" onclick="SelectDate(8)">
-                                <input type="button" value="9" onclick="SelectDate(9)">
-                                <input type="button" value="10" onclick="SelectDate(10)">
-                                <input type="button" value="11" onclick="SelectDate(11)">
-                                <input type="button" value="12" onclick="SelectDate(12)">
-                                <input type="button" value="13" onclick="SelectDate(13)">
-                                <input type="button" value="14" onclick="SelectDate(14)">
+                            <div id="days">
+                                <div id="dayrow">
+                                    <input type="button" value="1" onclick="SelectDate(1)">
+                                    <input type="button" value="2" onclick="SelectDate(2)">
+                                    <input type="button" value="3" onclick="SelectDate(3)">
+                                    <input type="button" value="4" onclick="SelectDate(4)">
+                                    <input type="button" value="5" onclick="SelectDate(5)">
+                                    <input type="button" value="6" onclick="SelectDate(6)">
+                                    <input type="button" value="7" onclick="SelectDate(7)">
+                                </div>
+                                <div id="dayrow">
+                                    <input type="button" value="8" onclick="SelectDate(8)">
+                                    <input type="button" value="9" onclick="SelectDate(9)">
+                                    <input type="button" value="10" onclick="SelectDate(10)">
+                                    <input type="button" value="11" onclick="SelectDate(11)">
+                                    <input type="button" value="12" onclick="SelectDate(12)">
+                                    <input type="button" value="13" onclick="SelectDate(13)">
+                                    <input type="button" value="14" onclick="SelectDate(14)">
+                                </div>
+                                <div id="dayrow">
+                                    <input type="button" value="15" onclick="SelectDate(15)">
+                                    <input type="button" value="16" onclick="SelectDate(16)">
+                                    <input type="button" value="17" onclick="SelectDate(17)">
+                                    <input type="button" value="18" onclick="SelectDate(18)">
+                                    <input type="button" value="19" onclick="SelectDate(19)">
+                                    <input type="button" value="20" onclick="SelectDate(20)">
+                                    <input type="button" value="21" onclick="SelectDate(21)">
+                                </div>
+                                <div id="dayrow">
+                                    <input type="button" value="22" onclick="SelectDate(22)">
+                                    <input type="button" value="23" onclick="SelectDate(23)">
+                                    <input type="button" value="24" onclick="SelectDate(24)">
+                                    <input type="button" value="25" onclick="SelectDate(25)">
+                                    <input type="button" value="26" onclick="SelectDate(26)">
+                                    <input type="button" value="27" onclick="SelectDate(27)">
+                                    <input type="button" value="28" onclick="SelectDate(28)">
+                                </div>
+                                <div id="dayrow">
+                                    <input type="button" value="29" onclick="SelectDate(29)">
+                                    <input type="button" value="30" onclick="SelectDate(30)">
+                                    <input type="button" value="31" onclick="SelectDate(31)">
+                                </div>
                             </div>
-                            <div id="dayrow">
-                                <input type="button" value="15" onclick="SelectDate(15)">
-                                <input type="button" value="16" onclick="SelectDate(16)">
-                                <input type="button" value="17" onclick="SelectDate(17)">
-                                <input type="button" value="18" onclick="SelectDate(18)">
-                                <input type="button" value="19" onclick="SelectDate(19)">
-                                <input type="button" value="20" onclick="SelectDate(20)">
-                                <input type="button" value="21" onclick="SelectDate(21)">
+                            <div id="selected-date-div">
+                                <p id="selected-date">Selected</p>
+                               <input type="button" id="back-button" value="Back" onclick="ReSelectDate()">
                             </div>
-                            <div id="dayrow">
-                                <input type="button" value="22" onclick="SelectDate(22)">
-                                <input type="button" value="23" onclick="SelectDate(23)">
-                                <input type="button" value="24" onclick="SelectDate(24)">
-                                <input type="button" value="25" onclick="SelectDate(25)">
-                                <input type="button" value="26" onclick="SelectDate(26)">
-                                <input type="button" value="27" onclick="SelectDate(27)">
-                                <input type="button" value="28" onclick="SelectDate(28)">
-                            </div>
-                            <div id="dayrow">
-                                <input type="button" value="29" onclick="SelectDate(29)">
-                                <input type="button" value="30" onclick="SelectDate(30)">
-                                <input type="button" value="31" onclick="SelectDate(31)">
-                            </div>
-                        </div>
-                        <div id="selected-date-div">
-                            <p id="selected-date">Selected</p>
-                           <input type="button" id="back-button" value="Back" onclick="ReSelectDate()">
-                        </div>
-
+                    </div>
                     <div id="name-input" class="input-field">
                         <label for="name">Name</label> <br>
                         <input type="text" id="name" placeholder="Full Name" required> <br>
@@ -116,12 +116,12 @@
                     </div>
                     <div id="faq-container">
                         <label for="faq-input-box">Question</label> <br>
-                        <textarea name="faq-input" id="faq-input-box" rows="5"></textarea>
+                        <textarea name="faq-input" id="faq-input-box" rows="5" required></textarea>
                     </div>
-                        
-                    <div id="contact-modal-confirmation">
-                        <p>Thank you for choosing your appointment with us.</p><br>
-                    </div>
+                </div>
+                    
+                <div id="contact-modal-confirmation">
+                    <p>Thank you for choosing your appointment with us.</p><br>
                 </div>
         
                 <div id="contact-modal-footer">
