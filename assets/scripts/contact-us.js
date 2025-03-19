@@ -23,15 +23,48 @@ function hideModal() {
 
 function showConfirmation() {
 
-    document.getElementById("contact-modal-confirmation").style.display = "block";
-    document.getElementById("submit-button").style.display = "none";
-    document.getElementById("contact-modal-footer").style.justifyContent = "center";
+    if (validateInputFields())
+    {
+        document.getElementById("contact-modal-confirmation").style.display = "block";
+        document.getElementById("submit-button").style.display = "none";
+        document.getElementById("contact-modal-footer").style.justifyContent = "center";
+    }
 }
 
 function hideConfirmation() {
     document.getElementById("contact-modal-confirmation").style.display = "none";
     document.getElementById("submit-button").style.display = "block";
     document.getElementById("contact-modal-footer").style.justifyContent = "space-between";
+}
+
+function validateInputFields() {
+    let valid = false;
+    let visible = document.getElementById("faq-container").style.display;
+
+    if (visible == "none")
+    {
+        valid = validateEmailField();
+        valid = validateEmailField();
+        return valid;
+    }
+
+    return valid;
+}
+
+function validateNameField() {
+    if (document.getElementById("name").innerHTML == "")
+    {
+        return false;
+    }
+    return true;
+}
+
+function validateEmailField() {
+    if (document.getElementById("email").innerHTML == "")
+    {
+        return false;
+    }
+    return true;
 }
 
 function MoveForward() {
