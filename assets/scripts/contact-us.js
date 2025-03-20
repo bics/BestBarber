@@ -3,7 +3,6 @@ function showModal(faq) {
 
     if (faq)
     {
-        document.getElementById("calendar").style.display = "none";
         document.getElementById("faq-container").style.display = "block"
         document.getElementById("modal-title").innerHTML = "Question";
         document.getElementById("confirmation-text").innerHTML = "Thank you, we will get back to you as soon as we can.";
@@ -12,7 +11,6 @@ function showModal(faq) {
     {
         document.getElementById("modal-title").innerHTML = "Appointment";
         document.getElementById("confirmation-text").innerHTML = "Thank you for choosing an appointment with us.";
-        document.getElementById("calendar").style.display = "flex";
         document.getElementById("faq-container").style.display = "none"
     }
 
@@ -90,59 +88,4 @@ function clearFields() {
     document.getElementById("name").value = "";
     document.getElementById("email").value = "";
     document.getElementById("faq-input-box").value = "";
-}
-
-function MoveForward() {
-    const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-
-    let month = document.getElementById("month-text").getAttribute("alt")
-    if (month >= months.length-1)
-    {
-        month = 0;
-        document.getElementById("month-text").innerHTML = months[month];
-        document.getElementById("month-text").setAttribute("alt", month);
-    }
-    else
-    {        
-
-    month = parseInt(month) + 1 ;
-    document.getElementById("month-text").innerHTML = months[month];
-    document.getElementById("month-text").setAttribute("alt", month);
-    }
-}
-
-function MoveBackward() {
-    const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-
-    let month = document.getElementById("month-text").getAttribute("alt")
-    if (month == 0)
-    {
-        month = 11;
-        document.getElementById("month-text").innerHTML = months[month];
-        document.getElementById("month-text").setAttribute("alt", month);
-    }
-    else
-    {
-        month = parseInt(month) - 1 ;
-        document.getElementById("month-text").innerHTML = months[month];
-        document.getElementById("month-text").setAttribute("alt", month);
-    }
-    
-
-}
-
-function SelectDate(x) {
-    document.getElementById("month").style.display = "none";
-    document.getElementById("days").style.display = "none";
-
-    let selectedDate = document.getElementById("month-text").innerHTML + " " + x;
-    document.getElementById("selected-date").innerHTML = selectedDate;
-    document.getElementById("selected-date-div").style.display = "block";
-}
-
-function ReSelectDate() {        
-    document.getElementById("month").style.display = "flex";
-    document.getElementById("days").style.display = "flex";
-
-    document.getElementById("selected-date-div").style.display = "none";
 }
