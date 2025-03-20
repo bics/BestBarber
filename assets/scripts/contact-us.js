@@ -12,8 +12,10 @@ function showModal(faq) {
     {
         document.getElementById("modal-title").innerHTML = "Appointment";
         document.getElementById("date-picker").style.display = "block"
+        document.getElementById("date").min = getCurrentDate();
         document.getElementById("confirmation-text").innerHTML = "Thank you for choosing an appointment with us.";
         document.getElementById("faq-container").style.display = "none"
+
     }
 
     document.getElementById("modal-background").style.display = "flex";
@@ -90,4 +92,9 @@ function clearFields() {
     document.getElementById("name").value = "";
     document.getElementById("email").value = "";
     document.getElementById("faq-input-box").value = "";
+}
+
+function getCurrentDate() {
+    //Code snippet taken from chatGPT
+    return new Date().toISOString().split("T")[0];
 }
