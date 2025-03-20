@@ -150,13 +150,13 @@ hr {
     width: 30%;
 }
 
-#employee-section {
+.employee-section {
     margin: 20px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#employee-section img {
+.employee-section img {
     box-sizing: border-box;
     margin: 0 20px;
 }
@@ -343,7 +343,7 @@ hr {
     }
 
 
-    #employee-section {        
+    .employee-section {        
     flex-direction: row;
     }
 
