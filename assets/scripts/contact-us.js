@@ -5,11 +5,13 @@ function showModal(faq) {
     {
         document.getElementById("faq-container").style.display = "block"
         document.getElementById("modal-title").innerHTML = "Question";
+        document.getElementById("date-picker").style.display = "none"
         document.getElementById("confirmation-text").innerHTML = "Thank you, we will get back to you as soon as we can.";
     }
     else
     {
         document.getElementById("modal-title").innerHTML = "Appointment";
+        document.getElementById("date-picker").style.display = "block"
         document.getElementById("confirmation-text").innerHTML = "Thank you for choosing an appointment with us.";
         document.getElementById("faq-container").style.display = "none"
     }
