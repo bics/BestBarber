@@ -112,7 +112,7 @@ hr {
     object-fit: cover;
 }
 
-.employee-introduction-even, .employee-introduction-odd {
+.employee-container-even, .employee-container-odd {
     justify-items: center;
     text-align: center;
 }
@@ -414,18 +414,16 @@ hr {
         height: 33vh;
     }
        
-    .employee-introduction-even {
+    .employee-container-even {
         display: flex;
         flex-direction: row;
         align-items: center;
-        font-size: 1.5em;
     }
 
-    .employee-introduction-odd {        
+    .employee-container-odd {        
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
-        font-size: 1.5em;
     }
 
     #calendar, #contact-modal-form input[type="email"], input[type="text"], #faq-input-box {
@@ -434,9 +432,12 @@ hr {
 }
 
 @media (min-width: 1441px) {
+    .content-body {
+        font-size: 1.5em;
+    }
+
     #description {
         width: 80%;
-        font-size: 1.5em;
         justify-content: space-between;
     }
 
