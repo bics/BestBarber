@@ -306,6 +306,7 @@ hr {
         padding: 10px;
         border-radius: 20px;
         box-sizing: border-box;
+        margin-bottom: 0;
     }
     
     #contact-modal-form {
