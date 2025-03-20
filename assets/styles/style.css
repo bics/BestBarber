@@ -67,10 +67,6 @@ footer {
     font-family: 'Brush Script MT',  sans-serif;
 }
 
-#description h1, #description h2 {
-    justify-self: center;
-}
-
 #description-services {
     border: 1px solid gray;
     text-align: center;
