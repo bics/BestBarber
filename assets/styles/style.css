@@ -364,6 +364,12 @@ hr {
         right: 0;
         border-radius: 10px 0 0;
     }
+
+    #gallery img{
+        padding: 10px;
+        border-radius: 20px;
+        box-sizing: border-box;
+    }
     
     #contact-modal-form {
         width: 60%;
