@@ -71,16 +71,16 @@ hr {
     margin: 0 20px;
 }
 
+.header-font {
+    font-weight: bold;
+    font-family: 'Brush Script MT',  sans-serif;
+}
+
 /*Landing page styles*/
 #description {
     text-align: center;
     display: flex;
     flex-direction: column;
-}
-
-#hero-text {
-    font-weight: bold;
-    font-family: 'Brush Script MT',  sans-serif;
 }
 
 #description-services {
