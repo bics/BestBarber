@@ -51,24 +51,36 @@ footer {
     align-items: center;
 }
 
+h1 {
+    margin-top: 0;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+.content-body-container > div {
+    margin-bottom: 20px;
+}
+
+.employee-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 20px;
+}
+
+.header-font {
+    font-weight: bold;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
 /*Landing page styles*/
 #description {
     text-align: center;
     display: flex;
     flex-direction: column;
-}
-
-#description-text {
-    margin-bottom: 10px;
-}
-
-#hero-text {
-    font-weight: bold;
-    font-family: 'Brush Script MT',  sans-serif;
-}
-
-#description h1, #description h2 {
-    justify-self: center;
 }
 
 #description-services {
@@ -100,11 +112,7 @@ footer {
     object-fit: cover;
 }
 
-#introduction {
-    margin-top: 30px;
-}
-
-.employee-introduction-even, .employee-introduction-odd {
+.employee-container-even, .employee-container-odd {
     justify-items: center;
     text-align: center;
 }
@@ -112,12 +120,6 @@ footer {
 #introduction hr, #description hr {
     border: 1px solid gray;
 }
-
-#introduction .employee-pic {
-    box-sizing: border-box;
-    padding: 20px 20px;
-}
-
 
 /*Gallery styles*/
 #gallery {
@@ -136,34 +138,10 @@ footer {
 
 
 /*Contact Us styles*/
-#contact-selection {
-    margin: 30px 0;
-    justify-self: center;
-    justify-content: space-evenly;
-}
-
 #faq {
     margin: auto;
     margin-top: 50px;
     width: 30%;
-}
-
-#employee-section {
-    margin: 20px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-#employee-section img {
-    box-sizing: border-box;
-    margin: 0 20px;
-}
-
-.employee-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
 }
 
 .employee-name {
@@ -172,74 +150,11 @@ footer {
 
 
 /*Contact Form style*/
-#calendar, #contact-modal-form input[type="email"], input[type="text"], #faq-input-box {
+.modal-input {
     width: 95%;
     justify-self: center;
     color: black;
-}
-
-#calendar {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    justify-content: center;
-}
-
-#month {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: rgb(4, 7, 32);
-    align-items: center;
-    padding: 0 5px;
-}
-
-#backward-button {
-    width: 30px;
-    height: 30px;
-    background: url("../images/backward-arrow.jpg") no-repeat;
-    background-size: contain;
-}
-
-#forward-button {
-    width: 30px;
-    height: 30px;
-    background: url("../images/forward-arrow.jpg") no-repeat;
-    background-size: contain;
-}
-
-#days {
-    display: flex;
-    flex-direction: column;
-}
-
-#dayrow {
-    display: flex;
-    padding: 0;
-    width: 100%;    
-    flex-wrap: nowrap;
-}
-
-#dayrow input[type=button] {
-    padding: 0;
-    width: 100%;
-    border: 1px solid white;
-}
-
-#calendar input[type=button]:hover {
-    background-color: lightskyblue;
-}
-
-#selected-date-div {
-    display: none;
-    width: 100%;
-    text-align: center;
-}
-
-#selected-date {
-    font-size: 2em;
-    background-color: rgb(4, 7, 32);
-    text-align: center;
+    margin-bottom: 10px;
 }
 
 #back-button {
@@ -255,6 +170,7 @@ footer {
     height: 100%;
     background-color: rgba(59, 59, 59, 0.4);
     justify-content: center;
+    align-items: center;
 }
 
 #contact-form {
@@ -275,7 +191,6 @@ footer {
     height: fit-content;
     max-height: 50%;
     z-index: 3;
-    top: 5vh;
     background-color: rgb(59, 59, 59);
     text-align: center;
 
@@ -347,11 +262,6 @@ footer {
         box-sizing: border-box;
     }
 
-
-    #employee-section {        
-    flex-direction: row;
-    }
-
     .employee-pic {
         width: 300px;
         height: 300px;
@@ -391,6 +301,13 @@ footer {
         right: 0;
         border-radius: 10px 0 0;
     }
+
+    #gallery img{
+        padding: 10px;
+        border-radius: 20px;
+        box-sizing: border-box;
+        margin-bottom: 0;
+    }
     
     #contact-modal-form {
         width: 60%;
@@ -420,29 +337,30 @@ footer {
         height: 33vh;
     }
        
-    .employee-introduction-even {
+    .employee-container-even {
         display: flex;
         flex-direction: row;
         align-items: center;
-        font-size: 1.5em;
     }
 
-    .employee-introduction-odd {        
+    .employee-container-odd {        
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
-        font-size: 1.5em;
     }
 
-    #calendar, #contact-modal-form input[type="email"], input[type="text"], #faq-input-box {
+    .modal-input {
         width: 50%;
     }
 }
 
 @media (min-width: 1441px) {
+    .content-body {
+        font-size: 1.5em;
+    }
+
     #description {
         width: 80%;
-        font-size: 1.5em;
         justify-content: space-between;
     }
 
