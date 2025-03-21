@@ -1,6 +1,15 @@
 # BestBarber
 
-## Table of contents
+## Table of contents    
+    1. Overview
+    2. UX
+    3. Features
+    4. Technologies used
+    5. Testing
+    6. Deployment
+    7. Credits
+    8. Acknowledgements
+    9. Disclaimer
 
 ## Overview
 
