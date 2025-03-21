@@ -3,14 +3,14 @@
 # Table of contents    
 
 1. [Overview](#overview)
-2. UX
-3. Features
-4. Technologies used
-5. Testing
-6. Deployment
-7. Credits
-8. Acknowledgements
-9. Disclaimer
+2. [UX](#ux)
+3. [Features](#features)
+4. [Technologies used](#technologies-used)
+5. [Testing](#testing)
+6. [Deployment](#deployment)
+7. [Credits](#credits)
+8. [Acknowledgements](#acknowledgements)
+9. [Disclaimer](#disclaimer)
 
 # Overview
 
