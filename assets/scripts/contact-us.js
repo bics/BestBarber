@@ -3,18 +3,18 @@ function showModal(faq) {
 
     if (faq)
     {
-        document.getElementById("faq-container").style.display = "block"
+        document.getElementById("faq-container").style.display = "block";
         document.getElementById("modal-title").innerHTML = "Question";
-        document.getElementById("date-picker").style.display = "none"
+        document.getElementById("date-picker").style.display = "none";
         document.getElementById("confirmation-text").innerHTML = "Thank you, we will get back to you as soon as we can.";
     }
     else
     {
         document.getElementById("modal-title").innerHTML = "Appointment";
-        document.getElementById("date-picker").style.display = "block"
+        document.getElementById("date-picker").style.display = "block";
         document.getElementById("date").min = getCurrentDate();
         document.getElementById("confirmation-text").innerHTML = "Thank you for choosing an appointment with us.";
-        document.getElementById("faq-container").style.display = "none"
+        document.getElementById("faq-container").style.display = "none";
 
     }
 
@@ -80,12 +80,12 @@ function validateEmailField() {
 }
 
 function validateFaqContainer() {
-    if (!document.getElementById("faq-input-box").value == "")
+    if (document.getElementById("faq-input-box").value == "")
     {
-        return true;
+        return false;
     }
 
-    return false;
+    return true;
 }
 
 function clearFields() {
