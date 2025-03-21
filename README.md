@@ -19,6 +19,32 @@ some of the services as well.
 
 # Features
 
+## Existing features
+
+### Navigation bar
+The navigation bar is positioned and fixed at the top of the pages.\
+Styling is consistent across all pages. However on smaller devices the nevigation bar takes up the full width of the screen, as we go to larger screens above tablet size it's size only takes a fraction (30 percent) of the screen and receives a shadow around to highlight it's position.\
+It helps navigate through all main pages, namely Home, Gallery and Contact Us.\
+
+### Footer
+The footer element is positioned and fixed at the bottom of the pages.\
+Styling is consistent across all pages. However on smaller devices the footer takes up the full width of the screen, as we go to larger screens above tablet size it's size only takes a fraction (30 percent) of the screen and receives a shadow around to highlight it's position.\
+The element provides links to social media platforms, namely in order Facebook, X, Google and Github.\
+
+### Landing page 
+
+* #### Description
+
+This element provides an overview of the company itself, and also includes the services provided by the establishment to it's users.\
+
+* #### Employee introduction
+
+This section provides an overview of the staff.\
+All staff member currently employed is presented with a background and a little bit of personal touch.\
+
+
+## Future features consideration
+
 # Technologies used
 
 # Testing
