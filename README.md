@@ -1,5 +1,14 @@
 # BestBarber
 
+## Table of contents
+
+## Overview
+
+## UX
+
+## Features
+
+## Technologies used
 
 ## Testing
 
@@ -22,7 +31,7 @@ Steps taken:
     1. Added a heading element with a class attribute "hidden-heading". These classes meant to be hidden, updated the display property in css to the value "none".
 
 
-Contact (contact-is.html) page testing:
+Contact (contact-us.html) page testing:
 * During validation 3 errors were present
     1. Form on page didn't have an action.
     2. Two div element was present with the same id, "name-input"
@@ -41,6 +50,8 @@ Style (style.css) testing:
 * During validation there were no errors present
 
 A couple warning were given for "-webkit-animation-name" and "-webkit-animation-duration". As this is a code not written by me, I choose to ignore these warnings.
+
+## Deployment
 
 ## Credits
 
@@ -93,3 +104,7 @@ barber-employee-3: https://www.freepik.com/free-photo/portrait-tattooed-hipster-
 wooden-background: https://www.freepik.com/free-photo/black-wooden-plank-textured-background_17848450.htm#fromView=search&page=1&position=40&uuid=167896f4-5ebc-43a4-bf99-76b2740a1faf&query=darkwood
 
 forward-arrow/backward-arrow : https://www.freepik.com/free-vector/dotted-arrow-icon-sticker-direction-symbol-vector-black-white_18711331.htm#fromView=keyword&page=1&position=4&uuid=138a14e8-442b-4311-9900-af97402623dc&query=Next
+
+## Acknowledgements
+
+## Disclaimer
