@@ -76,6 +76,10 @@ hr {
     font-family: 'Trebuchet MS', sans-serif;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 /*Landing page styles*/
 #description {
     text-align: center;
