@@ -1,7 +1,7 @@
 # BestBarber
 
 ## Table of contents    
-    1. Overview
+    1. [Overview](#overview)
     2. UX
     3. Features
     4. Technologies used
