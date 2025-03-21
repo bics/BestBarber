@@ -22,10 +22,10 @@
 
 # Testing
 
-Used W3C validator for both html and css validation.
+Used [W3C](https://www.w3.org) validator for both [html](https://validator.w3.org) and [css](https://jigsaw.w3.org/css-validator/) validation.
 Used [Jshint](https://jshint.com) for javascript validation
 
-### HTML validation
+## HTML validation
 
 Main (index.html) page testing:
 * During validation only 1 warning was flagged
@@ -55,14 +55,14 @@ Steps taken:
 
 After these errors were corrected there were no more errors or warnings.
 
-### CSS validation 
+## CSS validation 
 
 Style (style.css) testing:
 * During validation there were no errors present
 
 A couple warning were given for "-webkit-animation-name" and "-webkit-animation-duration". As this is a code not written by me, I choose to ignore these warnings.
 
-### JS validation
+## JS validation
 
 Contact (contact-us.js) testing:
 * During validation the following warnings were present:
