@@ -1,18 +1,19 @@
 # BestBarber
 
+Best Barber is a made up company who provides barber services to its customers. Customers who visit their website will get a glimpse of the company's aim and epmloyees. As someone
+might be interested in trying one of the services provided, users have a chance to request an appointment, or simply ask a question. A gallery is present on the site to showcase
+some of the services as well.
+
 # Table of contents    
 
-1. [Overview](#overview)
-2. [UX](#ux)
-3. [Features](#features)
-4. [Technologies used](#technologies-used)
-5. [Testing](#testing)
-6. [Deployment](#deployment)
-7. [Credits](#credits)
-8. [Acknowledgements](#acknowledgements)
-9. [Disclaimer](#disclaimer)
-
-# Overview
+1. [UX](#ux)
+2. [Features](#features)
+3. [Technologies used](#technologies-used)
+4. [Testing](#testing)
+5. [Deployment](#deployment)
+6. [Credits](#credits)
+7. [Acknowledgements](#acknowledgements)
+8. [Disclaimer](#disclaimer)
 
 # UX
 
