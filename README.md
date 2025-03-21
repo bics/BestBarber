@@ -1,6 +1,47 @@
 # BestBarber
 
 
+## Testing
+
+Used W3C validator for both html and css validation.
+
+### HTML validation
+
+Main (index.html) page testing:
+* During validation only 1 warning was flagged
+    1. Introduction section was lacking a heading element
+    
+Steps taken:
+    1. Added a heading element with a class attribute "hidden-heading".
+
+Gallery (gallery.html) page testing:
+* During validation only 1 warning was flagged
+    1. Gallery section was lacking a heading element
+
+Steps taken:
+    1. Added a heading element with a class attribute "hidden-heading". These classes meant to be hidden, updated the display property in css to the value "none".
+
+
+Contact (contact-is.html) page testing:
+* During validation 3 errors were present
+    1. Form on page didn't have an action.
+    2. Two div element was present with the same id, "name-input"
+    3. Script tags was marked as stray, as it was outside both the header and body element.
+
+Steps taken:
+    1. Filled action value of form with the method "Post"
+    2. Renamed the id of the email input container.
+    3. Simply replaced script tags to be inside the body element.
+
+After these errors were corrected there were no more errors or warnings.
+
+### CSS validation 
+
+Style (style.css) testing:
+* During validation there were no errors present
+
+A couple warning were given for "-webkit-animation-name" and "-webkit-animation-duration". As this is a code not written by me, I choose to ignore these warnings.
+
 ## Credits
 
 Code snippet taken and modified from https://www.w3schools.com/howto/howto_css_modals.asp for modal animation fade in
