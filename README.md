@@ -8,6 +8,8 @@ some of the services as well.
 
 1. [UX](#ux)
 2. [Features](#features)
+    1. [Existing Features](#existing-features)
+    2. [Future features consideration](#future-features-consideration)
 3. [Technologies used](#technologies-used)
 4. [Testing](#testing)
 5. [Deployment](#deployment)
@@ -84,6 +86,22 @@ Once the form is submitted a confirmation is shown to inform the user.
 
 # Technologies used
 
+* The core project is written in HTML5, CSS3 and Javascript.
+* Used [Balsamiq](https://balsamiq.com) to create wriframes.
+* Used [Visual Studio Code](https://code.visualstudio.com) as IDE.
+* Used [Github](https://github.com) to store and deploy the repository.
+* Used [Sourcetree](https://www.sourcetreeapp.com) for version control.
+* Used [Opera](https://www.opera.com), [Mozilla](https://www.mozilla.org/en-GB/) and [Chrome](https://www.google.com/intl/en_uk/chrome/) browsers and their respective developer tools for testing.
+* Used [ChatGPT](https://chatgpt.com) to help with the content, and a bit of debugging.
+* Used [W3Schools](https://www.w3schools.com) to help to understand and write codes.
+* Frequently visited [Stack Overflow](https://stackoverflow.com/questions) to understand some behaviours.
+* Used [W3C](https://www.w3.org) to validate both html and css files.
+* Used [Jshint](https://jshint.com) to validate js file.
+* Used [Behind the Name](https://www.behindthename.com) name generator to generate names.
+* Used [Lorem Ipsum](https://www.lipsum.com) to generate initial content.
+* Used [Font Awesome](https://fontawesome.com) to display footer elements.
+* Used [Freepik](https://www.freepik.com) to acquire free images.
+
 # Testing
 
 Used [W3C](https://www.w3.org) validator for both [html](https://validator.w3.org) and [css](https://jigsaw.w3.org/css-validator/) validation.
@@ -150,12 +168,6 @@ Steps taken:
 # Credits
 
 Code snippet taken and modified from https://www.w3schools.com/howto/howto_css_modals.asp for modal animation fade in
-
-Name generator: https://www.behindthename.com
-
-Lorem ipsum generator: https://www.lipsum.com
-
-Heavily relied on https://chatgpt.com for content.
 
 Awesomefonts link copied from previous LoveRunning project.
 
