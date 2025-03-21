@@ -1,6 +1,6 @@
 # BestBarber
 
-## Table of contents    
+# Table of contents    
     1. [Overview](#overview)
     2. UX
     3. Features
@@ -11,15 +11,15 @@
     8. Acknowledgements
     9. Disclaimer
 
-## Overview
+# Overview
 
-## UX
+# UX
 
-## Features
+# Features
 
-## Technologies used
+# Technologies used
 
-## Testing
+# Testing
 
 Used W3C validator for both html and css validation.
 
@@ -60,9 +60,9 @@ Style (style.css) testing:
 
 A couple warning were given for "-webkit-animation-name" and "-webkit-animation-duration". As this is a code not written by me, I choose to ignore these warnings.
 
-## Deployment
+# Deployment
 
-## Credits
+# Credits
 
 Code snippet taken and modified from https://www.w3schools.com/howto/howto_css_modals.asp for modal animation fade in
 
@@ -114,6 +114,6 @@ wooden-background: https://www.freepik.com/free-photo/black-wooden-plank-texture
 
 forward-arrow/backward-arrow : https://www.freepik.com/free-vector/dotted-arrow-icon-sticker-direction-symbol-vector-black-white_18711331.htm#fromView=keyword&page=1&position=4&uuid=138a14e8-442b-4311-9900-af97402623dc&query=Next
 
-## Acknowledgements
+# Acknowledgements
 
-## Disclaimer
+# Disclaimer
