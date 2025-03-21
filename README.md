@@ -1,6 +1,6 @@
 # BestBarber
 
-Best Barber is a made up company who provides barber services to its customers. Customers who visit their website will get a glimpse of the company's aim and epmloyees. As someone
+Best Barber is a made up company who provides barber services to its customers. Customers who visit their website will get a glimpse of the company's aim and employees. As someone
 might be interested in trying one of the services provided, users have a chance to request an appointment, or simply ask a question. A gallery is present on the site to showcase
 some of the services as well.
 
