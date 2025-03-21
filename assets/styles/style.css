@@ -294,12 +294,14 @@ hr {
     header {
         width: 30%;
         border-radius: 0 0 10px;
+        box-shadow: 6px 0px 15px 0px rgb(255, 255, 255,1);
     }
 
     footer {
         width: 30%;
         right: 0;
         border-radius: 10px 0 0;
+        box-shadow: -6px 0px 15px 0px rgb(255, 255, 255,1);
     }
 
     #gallery img{
