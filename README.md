@@ -66,10 +66,21 @@ required to submit the form on their respective action.\
 \
 Once the form is submitted a confirmation is shown to inform the user.
 
-
-
-
 ## Future features consideration
+
+### Landing page 
+
+* A map can be added to help customers locate the shop.
+* Further images can be added showing the inside of the shop.
+
+### Gallery page
+
+* Sections can be categorized for each services.
+
+### Contact Us page
+
+* A chatbot can be included in the page to help the users immediatly with any questions.
+* Address and telephone number can be added to encoruage customers to get in touch either in person or via phone.
 
 # Technologies used
 
