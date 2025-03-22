@@ -1,5 +1,6 @@
 function showModal(faq) {    
-
+    
+    getEmployeeNames();
 
     if (faq)
     {
@@ -97,4 +98,19 @@ function clearFields() {
 function getCurrentDate() {
     //Code snippet taken from chatGPT
     return new Date().toISOString().split("T")[0];
+}
+
+function getEmployeeNames() {
+    const employees = document.getElementsByClassName("employee-name");
+    for (i=0;i<employees.length;i++)
+    {
+        let option = document.createElement("option");
+        option.text = employees[i].id;
+        option.value = employees[i].id;
+        document.getElementById("employee-select").add(option);
+
+    /*employees.forEach(employee => {
+        document.getElementById("employee-select").add(document.createElement("option").text = document.getElementById(employee));
+    });*/
+    }
 }

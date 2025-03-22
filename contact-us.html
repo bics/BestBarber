@@ -24,17 +24,17 @@
         <div class="content-body-container">
             <section class="employee-container-even">
                 <a href="#contact-modal" onclick="showModal()"><img src="assets/images/barber-employee-1.jpg" alt="Cesarina Polyphonte" id="employee-1" class="employee-pic"></a>
-                <h3><a href="#contact-modal" class="employee-name" onclick="showModal()">Cesarina Polyphonte's appointment</a></h3>
+                <h3><a href="#contact-modal" id="Cesarina Polyphonte" class="employee-name" onclick="showModal()">Cesarina Polyphonte's appointment</a></h3>
             </section>
 
             <section class="employee-container-odd">
                 <a href="#contact-modal" onclick="showModal()"><img src="assets/images/barber-employee-2.jpg" alt="Patrícia Odelia" id="employee-2" class="employee-pic"></a>
-                <h3><a href="#contact-modal" class="employee-name" onclick="showModal()">Patrícia Odelia's appointment</a></h3>
+                <h3><a href="#contact-modal" id="Patrícia Odelia" class="employee-name" onclick="showModal()">Patrícia Odelia's appointment</a></h3>
             </section>
 
             <section class="employee-container-even">
                 <a href="#contact-modal" onclick="showModal()"><img src="assets/images/barber-employee-3.jpg" alt="Heimdallr Hermokrates" id="employee-3" class="employee-pic"></a>
-                <h3><a href="#contact-modal" class="employee-name" onclick="showModal()">Heimdallr Hermokrates's appointment</a></h3>
+                <h3><a href="#contact-modal" id="Heimdallr Hermokrates" class="employee-name" onclick="showModal()">Heimdallr Hermokrates's appointment</a></h3>
             </section>
 
             <section id="faq">
@@ -54,6 +54,11 @@
                 </div>
                 
                 <div id="contact-modal-body">
+                    <div id="name-selector" class="input-field">
+                        <label for="employee-select">Please select a barber</label> <br>
+                        <select name="employee" id="employee-select" class="modal-input" required></select> <br>
+                    </div>
+
                     <div id="date-picker" class="input-field">
                         <label for="date">Date</label> <br>
                         <input type="date" id="date" class="modal-input" required> <br>
