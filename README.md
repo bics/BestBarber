@@ -189,7 +189,6 @@ Steps taken:
 ### Github pages
 
 The project is deployed to Github Pages. In order to achieve this the following steps were taken:\
-\
 1. Sign into [Github](https://github.com/).
 2. Locate the [Best Barber](https://github.com/bics/BestBarber) repository.
 3. Locate the settings for the repository on the top navigation bar.
@@ -275,7 +274,7 @@ All images were sourced from [Freepik](https://www.freepik.com):
 
 * barber-employee-2 by [stockking](https://www.freepik.com/free-photo/professional-bearded-barber-man-apron-holding-hair-cutting-machine-smiling-friendly-showing-thumbs-up-standing-purple-wall_12177432.htm#fromView=search&page=6&position=27&uuid=cbe20e90-7f49-4842-9e84-dbf3fe5e021e&query=Barber)
 
-* barber-employee-3 by [fxquadro] (https://www.freepik.com/free-photo/portrait-tattooed-hipster-with-full-beard-stylish-haircut-dressed-gray-t-shirt-stands-with-thinking-look-studio-dark-background_27481079.htm#fromView=search&page=8&position=45&uuid=cbe20e90-7f49-4842-9e84-dbf3fe5e021e&query=Barber)
+* barber-employee-3 by [fxquadro](https://www.freepik.com/free-photo/portrait-tattooed-hipster-with-full-beard-stylish-haircut-dressed-gray-t-shirt-stands-with-thinking-look-studio-dark-background_27481079.htm#fromView=search&page=8&position=45&uuid=cbe20e90-7f49-4842-9e84-dbf3fe5e021e&query=Barber)
 
 * wooden-background by [rawpixel.com](https://www.freepik.com/free-photo/black-wooden-plank-textured-background_17848450.htm#fromView=search&page=1&position=40&uuid=167896f4-5ebc-43a4-bf99-76b2740a1faf&query=darkwood)
 
