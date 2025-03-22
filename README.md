@@ -22,6 +22,21 @@ some of the services as well.
 
 # UX
 
+### User stories
+First Time Visitor Goals
+
+Returning Visitor Goals
+
+Frequent User Goals
+
+### Design
+
+Colour Scheme
+Typography
+
+### Wireframes
+
+
 # Features
 
 ## Existing features
@@ -231,6 +246,7 @@ The project is deployed to Github Pages. In order to achieve this the following 
 * Code snippet taken and modified from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal_bottom for modal animation fade in
 * Awesomefonts link copied from previous [LoveRunning](https://github.com/bics/LoveRunning) project.
 * Code snippet taken/generated from [ChatGPT](https://chatgpt.com) for current date retrieval function.
+* Some heading elements for the README were taken from the [Code Intitute README template](https://github.com/Code-Institute-Solutions/SampleREADME) and my mentor's [first project README file](https://github.com/BAK2K3/hard-drivers/blob/master/README.md)
 
 ### Content
 
