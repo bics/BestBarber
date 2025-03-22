@@ -151,7 +151,7 @@ Steps taken:
 2. Renamed the id of the email input container.
 3. Simply replaced script tags to be inside the body element.
 4. Ids were corrected, and updated scripts to reformat names.
-5. Removed "required" attribute from select elemnet, and readding attribute inside script.
+5. Removed "required" attribute from select element, and readding attribute inside script.
 
 After these errors were corrected there were no more errors or warnings.
 
