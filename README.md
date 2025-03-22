@@ -137,15 +137,21 @@ Steps taken:
 
 
 Contact (contact-us.html) page testing:
-* During validation 3 errors were present
+* During validation 7 errors were present
     * Form on page didn't have an action.
     * Two div element was present with the same id, "name-input"
     * Script tags was marked as stray, as it was outside both the header and body element.
+    * Bad value Cesarina Polyphonte for attribute id on element a: An ID must not contain whitespace.
+    * Bad value Patrícia Odelia for attribute id on element a: An ID must not contain whitespace.
+    * Bad value Heimdallr Hermokrates for attribute id on element a: An ID must not contain whitespace.
+    * A select element with a required attribute, and without a multiple attribute, and without a size attribute whose value is greater than 1, must have a child option element.
 
 Steps taken:
 1. Filled action value of form with the method "Post"
 2. Renamed the id of the email input container.
 3. Simply replaced script tags to be inside the body element.
+4. Ids were corrected, and updated scripts to reformat names.
+5. Removed "required" attribute from select elemnet, and readding attribute inside script.
 
 After these errors were corrected there were no more errors or warnings.
 
