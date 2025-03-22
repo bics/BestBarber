@@ -1,5 +1,6 @@
 function showModal(faq) {    
     
+    clearOutOptions();
     getEmployeeNames();
 
     if (faq)
@@ -107,10 +108,16 @@ function getEmployeeNames() {
         let option = document.createElement("option");
         option.text = employees[i].id;
         option.value = employees[i].id;
+        option.className = "employee-dropdown-option";
         document.getElementById("employee-select").add(option);
+    }
+}
 
-    /*employees.forEach(employee => {
-        document.getElementById("employee-select").add(document.createElement("option").text = document.getElementById(employee));
-    });*/
+function clearOutOptions ()
+{
+    const dropdownOptions = document.getElementsByClassName("employee-dropdown-option");
+    for (i=dropdownOptions.length-1;i>=0;i--)
+    {
+        document.getElementById("employee-select").remove(i);
     }
 }
