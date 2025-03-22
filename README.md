@@ -164,14 +164,14 @@ Contact (contact-us.js) testing:
     * Line 8, Column 70: Missing semicolon.
     * Line 14, Column 71: Missing semicolon.
     * Line 17, Column 72: Missing semicolon.
-    * Line 30, Column 5: 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-    * Line 49, Column 5: 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-    * Line 50, Column 5: 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+    * Multiple instances of the following warnings
+        * 35	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+        * 109	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
     * Line 83, Column 9: Confusing use of '!'.
 
 Steps taken:
 1. Semicolons added to line ends.
-2. Decided to ignore the "'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz)" warnings as the scripts working as intended on all tested browsers including Mozilla.
+2. Decided to ignore the "'let'/'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz)" warnings as the scripts working as intended on all tested browsers including Mozilla.
 3. Removed negative if statement, should have been consistent as the other validation methods return true by default.
 
 

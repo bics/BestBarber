@@ -16,6 +16,7 @@ function showModal(faq, id) {
         document.getElementById("modal-title").innerHTML = "Appointment";
         document.getElementById("date-picker").style.display = "block";
         document.getElementById("name-selector").style.display = "block";
+        document.getElementById("name-selector").required = true;
         selectEmployee(id);
         document.getElementById("date").min = getCurrentDate();
         document.getElementById("confirmation-text").innerHTML = "Thank you for choosing an appointment with us.";
@@ -107,11 +108,13 @@ function getCurrentDate() {
 
 function getEmployeeNames() {
     const employees = document.getElementsByClassName("employee-name");
-    for (i=0;i<employees.length;i++)
+    for (let i=0;i<employees.length;i++)
     {
+        let functionHelper = employees[i].id.split('-')
+        let employeeIdFormatted = functionHelper[0] + " " + functionHelper[1];
         let option = document.createElement("option");
-        option.text = employees[i].id;
-        option.value = employees[i].id;
+        option.text = employeeIdFormatted ;
+        option.value = employeeIdFormatted;
         option.className = "employee-dropdown-option";
         document.getElementById("employee-select").add(option);
     }
@@ -120,7 +123,7 @@ function getEmployeeNames() {
 function clearOutOptions ()
 {
     const dropdownOptions = document.getElementsByClassName("employee-dropdown-option");
-    for (i=dropdownOptions.length-1;i>=0;i--)
+    for (let i=dropdownOptions.length-1;i>=0;i--)
     {
         document.getElementById("employee-select").remove(i);
     }
@@ -128,7 +131,7 @@ function clearOutOptions ()
 
 function selectEmployee(id) {
     const dropdownOptions = document.getElementsByClassName("employee-dropdown-option");
-    for (i=0;i<dropdownOptions.length;i++)
+    for (let i=0;i<dropdownOptions.length;i++)
     {
         if (id == dropdownOptions[i].value)
         {
