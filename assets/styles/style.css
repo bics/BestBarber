@@ -200,6 +200,7 @@ option {
     background-color: rgb(59, 59, 59);
     text-align: center;
 
+    /*Code snippet taken and modified from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal_bottom */
     -webkit-animation-name: fadeIn; /* Fade in the background */
     -webkit-animation-duration: 0.4s;
     animation-name: fadeIn;
@@ -256,6 +257,7 @@ option {
 }
 
 /*Modal slide animation*/  
+/*Code snippet taken and modified from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal_bottom */
   @-webkit-keyframes fadeIn {
     from {opacity: 0} 
     to {opacity: 1}
