@@ -4,14 +4,18 @@ Best Barber is a made up company who provides barber services to its customers. 
 might be interested in trying one of the services provided, users have a chance to request an appointment, or simply ask a question. A gallery is present on the site to showcase
 some of the services as well.
 
+[Deployed site](https://bics.github.io/BestBarber/)
+
 # Table of contents    
 
 1. [UX](#ux)
 2. [Features](#features)
     1. [Existing Features](#existing-features)
-    2. [Future features consideration](#future-features-consideration)
+    2. [Future Features Consideration](#future-features-consideration)
 3. [Technologies used](#technologies-used)
 4. [Testing](#testing)
+    1. [Manual Testing](#manual-testing)
+    2. [Automated Testing](#automated-testing)
 5. [Deployment](#deployment)
 6. [Credits](#credits)
 7. [Acknowledgements](#acknowledgements)
@@ -63,8 +67,7 @@ The form appears on the screen as a modal in the center of the screen.\
 Below the employees is a link to open the form but instead of an appointment the users can submit a question.\
 \
 The form itself as previously stated is a modal to ensure a dynamic flow of interaction. The form itself in all cases have a required "Name" and "Email" input.\
-Depending on the action chosen (appointment or general question), a date picker is present for appointments and a text area is present for the other case. Both fields are
-required to submit the form on their respective action.\
+Depending on the action chosen (appointment or general question), a date picker and employee selector is present for appointments and a text area is present for the other case. All fields are required to submit the form on their respective action.\
 \
 Once the form is submitted a confirmation is shown to inform the user.
 
@@ -182,6 +185,45 @@ Steps taken:
 
 
 # Deployment
+
+### Github pages
+
+The project is deployed to Github Pages. In order to achieve this the following steps were taken:\
+\
+1. Sign into [Github](https://github.com/).
+2. Locate the [Best Barber](https://github.com/bics/BestBarber) repository.
+3. Locate the settings for the repository on the top navigation bar.
+4. On the left hand side menu select the "Pages" option.
+5. Under the "Branch" option select the main branch to deploy and press save.
+6. Go to the "Code" window.
+7. On the right hand side a new element should appear with the name "Deployments" which should reveal the deployed site url.
+
+### Forking a repository
+
+1. Sign into [Github](https://github.com/) (can be done later).
+2. On [Github](https://github.com/) locate the [Best Barber](https://github.com/bics/BestBarber) repository.
+3. On the top right hand side click on the "Fork" option.
+4. Sign into [Github](https://github.com/) (not needed if step 1. was taken).
+5. The repository should be present under your account's repositories.
+
+### Clone online repository
+
+1. Navigate to the [Best Barber](https://github.com/bics/BestBarber) repository.
+2. On the right side select the "Code" dropdown menu.
+3. Download the repository as a .zip file.
+4. Extract the downloaded file.
+5. Open up your preferred IDE and add the extracted folder as a project.
+
+### Clone a repository with Sourcetree
+
+1. Import SSH key. If SSH key already imported skip these steps
+    1. Acquire the SSH key, and password for this repository.
+    2. Locate the "Tools" menu, and select the "Create or import SSH keys" option.
+    3. In the dialog select "Load" and locate the acquired SSH key.
+    4. If prompted sign in to [Github](https://github.com/) account and enter the password.
+2. Click on the "+" icon to add a local repository.
+3. Select the "Remote" option on the top navigation bar.
+4. Search for the [Best Barber](https://github.com/bics/BestBarber) repository and hit clone.
 
 # Credits
 
