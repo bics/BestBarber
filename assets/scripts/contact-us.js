@@ -97,6 +97,7 @@ function clearFields() {
     document.getElementById("name").value = "";
     document.getElementById("email").value = "";
     document.getElementById("faq-input-box").value = "";
+    document.getElementById("date").value = "";
 }
 
 function getCurrentDate() {
