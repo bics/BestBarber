@@ -1,4 +1,4 @@
-function showModal(faq) {    
+function showModal(faq, id) {    
     
     clearOutOptions();
     getEmployeeNames();
@@ -16,6 +16,7 @@ function showModal(faq) {
         document.getElementById("modal-title").innerHTML = "Appointment";
         document.getElementById("date-picker").style.display = "block";
         document.getElementById("name-selector").style.display = "block";
+        selectEmployee(id);
         document.getElementById("date").min = getCurrentDate();
         document.getElementById("confirmation-text").innerHTML = "Thank you for choosing an appointment with us.";
         document.getElementById("faq-container").style.display = "none";
@@ -122,4 +123,16 @@ function clearOutOptions ()
     {
         document.getElementById("employee-select").remove(i);
     }
+}
+
+function selectEmployee(id) {
+    const dropdownOptions = document.getElementsByClassName("employee-dropdown-option");
+    for (i=0;i<dropdownOptions.length;i++)
+    {
+        if (id == dropdownOptions[i].value)
+        {
+            document.getElementById("employee-select").selectedIndex = i;
+        }
+    }
+
 }
