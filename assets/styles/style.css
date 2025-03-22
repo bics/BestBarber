@@ -402,4 +402,8 @@ option {
     .form-button {
         font-size: 0.75em;
     }
+
+    .modal-input {
+        height: 1.5em;
+    }
 }
