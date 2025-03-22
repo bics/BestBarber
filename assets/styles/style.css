@@ -167,10 +167,6 @@ option {
     padding: 0;
 }
 
-#back-button {
-    width: 15%;
-}
-
 /*Modal styles*/
 #modal-background {
     display: none;
@@ -241,8 +237,18 @@ option {
     justify-content: space-between;
 }
 
-#contact-modal-form button, input[type="button"], input[type="submit"]  {
+.form-button {    
     color: black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.form-button-close:hover {
+    background-color: rgb(255, 47, 47);
+}
+
+.form-button-submit:hover {
+    background-color: greenyellow;
 }
 
 #hidden-input {
@@ -390,5 +396,10 @@ option {
 
     #contact-modal-form {
         width: 40%;
+        font-size: 1.5em;
+    }
+
+    .form-button {
+        font-size: 0.75em;
     }
 }
