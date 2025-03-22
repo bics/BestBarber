@@ -119,7 +119,7 @@ mentioned https://stackoverflow.com/questions/22148080/an-invalid-form-control-w
 
 ## Automated testing
 
-Used [W3C](https://www.w3.org) validator for both [html](https://validator.w3.org) and [css](https://jigsaw.w3.org/css-validator/) validation.
+Used [W3C](https://www.w3.org) validator for both [html](https://validator.w3.org) and [css](https://jigsaw.w3.org/css-validator/) validation.\
 Used [Jshint](https://jshint.com) for javascript validation
 
 ### HTML validation

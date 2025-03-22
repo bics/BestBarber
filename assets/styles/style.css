@@ -1,3 +1,4 @@
+/*Common styles*/
 * {
     color: rgb(243, 229, 171);
 }
@@ -268,7 +269,7 @@ option {
     to {opacity: 1}
   }
 
-
+/*Screen larger than a mobile*/
 @media (min-width: 426px) {
     #gallery {
         flex-direction: row;
@@ -308,6 +309,7 @@ option {
     }
 }
 
+/*Screens larger than a tablet*/
 @media (min-width: 769px) {
     header {
         width: 30%;
@@ -347,6 +349,7 @@ option {
 
 }
 
+/*Large screens*/
 @media (min-width: 1025px) {
     #gallery {
         flex-direction: row;
