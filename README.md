@@ -59,8 +59,8 @@ Typography
 
 ![Tablet wireframe](/assets/images/Wireframe_Tablet.png)
 
-<details>
 </details>
+<details>
 <summary>Desktop</summary>
 
 ![Desktop wireframe](/assets/images/Wireframe_Desktop.png)
