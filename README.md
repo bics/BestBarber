@@ -23,15 +23,27 @@ some of the services as well.
 # UX
 
 ### User stories
-First Time Visitor Goals
+* First Time Visitor Goals
+    * First time users should be able to understand the purpose of the site.
+    * They should be able to navigate the site without any issue.
+    * Information about the company and the services provided should be immediately accessible.
 
-Returning Visitor Goals
+* Returning Visitor Goals
+    * Returning visitors should be able to notice any changes in the company.
+    * If any question would arise, they should be able to contact us.
+    * They should be able to easily make an appointment.
 
-Frequent User Goals
+* Frequent User Goals
+    * Frequent users should be able to contact us similarly.
+    * Frequent users might spend some time going through the gallery
 
 ### Design
 
 Colour Scheme
+
+Main colors used on the website
+[Color palette](/assets/images/Color_Palette_HEX.png)
+
 Typography
 
 ### Wireframes
@@ -119,6 +131,7 @@ Once the form is submitted a confirmation is shown to inform the user.
 * Used [Font Awesome](https://fontawesome.com) to display footer elements.
 * Used [Freepik](https://www.freepik.com) to acquire free images.
 * Used [Wave](https://wave.webaim.org) evaluator to see errors and warnings.
+* Used [Coolors](https://coolors.co) to create color palette.
 
 # Testing
 
