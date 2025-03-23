@@ -35,13 +35,13 @@ some of the services as well.
 
 * Frequent User Goals
     * Frequent users should be able to contact us similarly.
-    * Frequent users might spend some time going through the gallery
+    * Frequent users might spend some time going through the gallery looking for new ideas or to search for their own image.
 
 ### Design
 
 Colour Scheme
 
-Main colors used on the website\
+Main colours used on the website\
 ![Color palette](/assets/images/Color_Palette_HEX.png)
 
 Typography
@@ -125,7 +125,6 @@ Below the employees is a link to open the form but instead of an appointment the
 \
 The form itself as previously stated is a modal to ensure a dynamic flow of interaction. The form itself in all cases have a required "Name" and "Email" input.\
 Depending on the action chosen (appointment or general question), a date picker and employee selector is present for appointments and a text area is present for the other case. All fields are required to submit the form on their respective action.\
-\
 
 ![Appointment form](/assets/images/AppointmentForm.PNG)
 ![Question form](/assets/images/QuestionForm.PNG)
@@ -138,6 +137,7 @@ Once the form is submitted a confirmation is shown to inform the user.
 
 * A map can be added to help customers locate the shop.
 * Further images can be added showing the inside of the shop.
+* A review section can be added to shawcase popularity.
 
 ### Gallery page
 
@@ -167,7 +167,7 @@ Once the form is submitted a confirmation is shown to inform the user.
 * Used [Freepik](https://www.freepik.com) to acquire free images.
 * Used [Wave](https://wave.webaim.org) evaluator to see errors and warnings.
 * Used [Coolors](https://coolors.co) to create color palette.
-* Used in-built [Snippet] tool to capture images.
+* Used [Microsoft Windows](https://www.microsoft.com/en-gb/windows?r=1) in-built **Snippet** tool to capture images.
 
 # Testing
 
@@ -231,7 +231,7 @@ Issues found and steps taken:
 
 Issues found and steps taken:
 * For general questions form would close nearly instanly barely showing confirmation
-    * Added hidden input element, as the message was present after filling out all appointments field. It might be wrong but I believe the form will submit reset automatically if the last 
+    * Added hidden input element, as the message was present after filling out all appointments field. I might be wrong but I believe the form will submit automatically if the last 
     element is filled.
 
 
