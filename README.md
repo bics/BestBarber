@@ -41,8 +41,8 @@ some of the services as well.
 
 Colour Scheme
 
-Main colors used on the website
-[Color palette](/assets/images/Color_Palette_HEX.png)
+Main colors used on the website\
+![Color palette](/assets/images/Color_Palette_HEX.png)
 
 Typography
 
