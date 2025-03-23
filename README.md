@@ -167,18 +167,73 @@ Once the form is submitted a confirmation is shown to inform the user.
 * Used [Freepik](https://www.freepik.com) to acquire free images.
 * Used [Wave](https://wave.webaim.org) evaluator to see errors and warnings.
 * Used [Coolors](https://coolors.co) to create color palette.
+* Used in-built [Snippet] tool to capture images.
 
 # Testing
 
 ## Manual testing
 
+### Navigation bar
+
+* Navigation tested on all sites for both direction.
+
+### Footer
+
+* Footer was tested on all sites for all links.
+
+### Landing (index.html) page
+
+* Visually tested all elements are in place.
+* Devtools were used to simulate different devices and ensure page is responsive.
+
+Issues found and steps taken:
+* On slightly large screens the landing image would cover the content.
+    * Removed fix height to containers.
+* On [Mozilla](https://www.mozilla.org/en-GB/) elements were not centered.
+    * Using devtools, styling sheet showed the main container element were missing flex properties.
+
+### Gallery (gallery.html) page
+
+* Visually tested all elements are in place.
+* Devtools were used to simulate different devices and ensure page is responsive.
+
+Issues found and steps taken:
+* One picture was not showing up
+    * Turns out it was a premium image. Replaced with a free one.
+* Images were sitting too tightly together
+    * Added borders to images which raised unexpected wrapping effects.
+        * Added border-box attribute to perfectly fit images in given spaces.
+
 ### Contact (contact-us.html) page
 
-Form testing:
+* Visually tested all elements are in place.
+* Devtools were used to simulate different devices and ensure page is responsive.
+* All links were tested to show the associated form.
 
-devtools - "An invalid form control with name='' is not focusable."
-add type="button"
-mentioned https://stackoverflow.com/questions/22148080/an-invalid-form-control-with-name-is-not-focusable
+#### Form testing:
+
+* Form actions (close/submit) were tested to ensure controls are working.
+
+Issues found and steps taken:
+* Input fields were still populated after closing/submitting form.
+    * Created function to clear fields and added to controls.
+* Input fields could be empty when submitting the form.
+    * Added required attribute to inputs.
+        * As there is no backend to the form the submit button would still work.
+            * Added method to validate form locally.
+            * Known bug: Email field is only looking for '@' symbol for validation. Could potentially submit incorrect email.
+
+* Devtools were used to check console for any error messages
+    * Error was present with the following message: "An invalid form control with name='' is not focusable."
+        * Input needed a a button type, answer found in https://stackoverflow.com/questions/22148080/an-invalid-form-control-with-name-is-not-focusable
+
+* Confirmation message was tested for both appointments and questions
+
+Issues found and steps taken:
+* For general questions form would close nearly instanly barely showing confirmation
+    * Added hidden input element, as the message was present after filling out all appointments field. It might be wrong but I believe the form will submit reset automatically if the last 
+    element is filled.
+
 
 ## Automated testing
 
