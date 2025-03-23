@@ -76,10 +76,14 @@ The navigation bar is positioned and fixed at the top of the pages.\
 Styling is consistent across all pages. However on smaller devices the nevigation bar takes up the full width of the screen, as we go to larger screens above tablet size it's size only takes a fraction (30 percent) of the screen and receives a shadow around to highlight it's position.\
 It helps navigate through all main pages, namely Home, Gallery and Contact Us.
 
+![Navbar](/assets/images/Navbar.PNG)
+
 ### Footer
 The footer element is positioned and fixed at the bottom of the pages.\
 Styling is consistent across all pages. However on smaller devices the footer takes up the full width of the screen, as we go to larger screens above tablet size it's size only takes a fraction (30 percent) of the screen and receives a shadow around to highlight it's position.\
 The element provides links to social media platforms, namely in order Facebook, X, Google and Github.
+
+![Footer](/assets/images/Footer.PNG)
 
 ### Landing page 
 
@@ -87,10 +91,14 @@ The element provides links to social media platforms, namely in order Facebook, 
 
 This element provides an overview of the company itself, and also includes the services provided by the establishment to it's users.
 
+![Description](/assets/images/Description.PNG)
+
 * #### Employee introduction
 
 This section provides an overview of the staff.\
 All staff member currently employed is presented with a background and a little bit of personal touch.
+
+![Intro](/assets/images/Introduction.PNG)
 
 ### Gallery page
 
@@ -101,18 +109,27 @@ Images all have the same sizes, and styled to properly fit on all devices. On sm
 on tablet sizes, we will see the two columns. On the largest screen sizes four columns are shown.\
 Spacing between images on smaller (phones and tablets) screens will be minimal to save space. On larger screens a more spacious grid appears to separate each image.
 
+![Gallery](/assets/images/Gallery.PNG)
+
 ### Contact Us page
 
 * #### Contact section
 This is the section were the users can interact with the site.\
 As mentioned before users might be tempted to make an appointment. This section shows the currently employed barbers, and both their picture and name will bring up a form to request an 
 appointment. \
+
+![Contact section](/assets/images/Contact.PNG)
+
 The form appears on the screen as a modal in the center of the screen.\
 Below the employees is a link to open the form but instead of an appointment the users can submit a question.\
 \
 The form itself as previously stated is a modal to ensure a dynamic flow of interaction. The form itself in all cases have a required "Name" and "Email" input.\
 Depending on the action chosen (appointment or general question), a date picker and employee selector is present for appointments and a text area is present for the other case. All fields are required to submit the form on their respective action.\
 \
+
+![Appointment form](/assets/images/AppointmentForm.PNG)
+![Question form](/assets/images/QuestionForm.PNG)
+
 Once the form is submitted a confirmation is shown to inform the user.
 
 ## Future features consideration
