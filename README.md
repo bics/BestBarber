@@ -45,7 +45,7 @@ Main colours used on the website\
 ![Color palette](/assets/images/Color_Palette_HEX.png)
 
 Typography
-* Trebuchet MS font is used for the hero text with a fallback value of sans-serif.
+* Trebuchet MS font is used for the hero text/headers with a fallback value of sans-serif.
 
 ### Wireframes
 <details>
