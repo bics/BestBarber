@@ -151,6 +151,7 @@ option {
     margin: auto;
     margin-top: 50px;
     width: 30%;
+    text-align: center;
 }
 
 .employee-name {
